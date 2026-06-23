@@ -127,10 +127,39 @@ https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangladesh",G Series Drama
 https://vods2.aynaott.com/gseriesDrama/index.m3u8
 
-
 # ==========================================
 # ⚽ SPORTS CHANNELS
 # ==========================================
+
+#EXTM3U
+#EXTINF:-1,World Cup 2026 Prime
+https://amazonlives.com/tv/mm-worldcup-2026-prime
+#EXTINF:-1,Fox Sports
+http://84.17.50.102/fox/index.m3u8
+#EXTINF:-1,Caze TV BR (1080p)
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
+#EXTINF:-1,AndFlix HD
+http://212.102.34.8:9080/AndFlixHD/video.m3u8
+#EXTINF:-1,A Spor
+https://amazonlives.com/tv/a-spor
+#EXTINF:-1,Live TV Pro
+https://www.livetvpro.site/live/evt_1782086419052_0iqiu_0
+#EXTINF:-1,Sports First TV
+https://amazonlives.com/tv/muxip-sportsfirst-tv
+#EXTINF:-1,beIN Sports 2
+https://amazonlives.com/tv/bein-sports-2
+#EXTINF:-1,beIN Sports 3
+https://amazonlives.com/tv/bein-sports-3
+#EXTINF:-1,beIN Sports 4
+https://amazonlives.com/tv/bein-sports-4
+#EXTINF:-1,Cricket Gold
+https://amazonlives.com/tv/cricket-gold
+#EXTINF:-1,Euro Sport HD
+https://amazonlives.com/tv/euro-sport-hd
+#EXTINF:-1,Star Sports 1 HD
+https://amazonlives.com/tv/star-sports-1-hd
+#EXTINF:-1,TyC Sports Argentina
+https://amazonlives.com/tv/tyc-sports-argentina
 
 #EXTINF:-1 group-title="Sports",Toffee Sports Live
 https://sm-monirul.top/toffee/play/BDVSAUS-26.m3u8
