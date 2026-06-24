@@ -132,6 +132,50 @@ https://vods2.aynaott.com/gseriesDrama/index.m3u8
 # ==========================================
 
 #EXTM3U
+#EXTINF:-1,Online24 Stream
+http://ua.online24.pm/play/1101/350B326FB34F4B8/video.m3u8
+#EXTINF:-1,TV Premium Pro 1
+http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579823.m3u8
+#EXTINF:-1,TV Premium Pro 2
+http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579821.m3u8
+#EXTINF:-1,TV Premium Pro 3
+http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/280823.m3u8
+#EXTINF:-1,StarHub Stream 1
+http://starhub.pro/live/farhat-3379/67897-913379/742610.ts
+#EXTINF:-1,StarHub Stream 2
+http://starhub.pro/live/farhat-3379/67897-913379/18452.ts
+#EXTINF:-1,MMN Sport
+http://mmn.mypsx.net:1935/live/mmnhdsport/chunklist.m3u8
+#EXTINF:-1,Eleven Sports
+http://znty.dyndns.org:5010/hls/eleven1.m3u8
+#EXTINF:-1,Caze TV 1080p
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
+#EXTINF:-1,Caze TV 720p
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/720p-vtt/index.m3u8
+#EXTINF:-1,OTT Club 1
+http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/6408/index.m3u8
+#EXTINF:-1,OTT Club 2
+http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/18000/index.m3u8
+#EXTINF:-1,Bein Sports Extra
+https://amg01334-beinsportsllc-beinxtraesp-localnow-aekzc.amagi.tv/playlistR1080p.m3u8
+#EXTINF:-1,AndFlix HD
+http://212.102.34.8:9080/AndFlixHD/video.m3u8
+#EXTINF:-1,Hakuna Stalker 1
+http://stalker.hakunamata.workers.dev/play/260/index.m3u8
+#EXTINF:-1,Hakuna Stalker 2
+http://stalker.hakunamata.workers.dev/play/261/index.m3u8
+#EXTINF:-1,Hakuna Stalker 3
+http://stalker.hakunamata.workers.dev/play/262/index.m3u8
+#EXTINF:-1,Sofast TV
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
+#EXTINF:-1,As Spor
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8
+#EXTINF:-1,NBC Puerto Rico
+https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
+#EXTINF:-1,Dienalt Channel 1
+http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2531/index.m3u8
+#EXTINF:-1,Mega TV
+http://y3fqd48g.megatv.fun/iptv/NRLXRWSBWBPLN4/19146/index.m3u8
 #EXTINF:-1,World Cup 2026 Prime
 https://amazonlives.com/tv/mm-worldcup-2026-prime
 #EXTINF:-1,Fox Sports
@@ -160,22 +204,10 @@ https://amazonlives.com/tv/euro-sport-hd
 https://amazonlives.com/tv/star-sports-1-hd
 #EXTINF:-1,TyC Sports Argentina
 https://amazonlives.com/tv/tyc-sports-argentina
-
-#EXTINF:-1 group-title="Sports",Toffee Sports Live
-https://sm-monirul.top/toffee/play/BDVSAUS-26.m3u8
-
 #EXTINF:-1 group-title="Sports",FIFA 2026 Live
 https://ultrasports24live.blogspot.com/p/fifa-2026.html?m=1
-
-#EXTINF:-1 group-title="Sports",T Sports Link 2
-http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 group-title="Sports",PTV Sports
-http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8
-
 #EXTINF:-1 group-title="Sports",Sony Sports Ten 1 HD
 https://sm-monirul.top/toffee/play/sony_sports_1_hd.m3u8
-
 #EXTINF:-1 group-title="Sports",Sony Sports Ten 2 HD
 https://sm-monirul.top/toffee/play/sony_sports_2_hd.m3u8
 
@@ -194,26 +226,19 @@ https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
 #EXTINF:-1 group-title="Sports",NBC Puerto Rico
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
 
-#EXTINF:-1 group-title="Sports",TyC Sports
-https://1nyaler.streamhostingcdn.top/stream/84/index.m3u8
 
 #EXTINF:-1 group-title="Sports",TUDN Sports
 https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8
 
-#EXTINF:-1 group-title="Sports",Fox Sports
-http://84.17.50.102/fox/index.m3u8
+
 
 #EXTINF:-1 group-title="Sports",Sports Stream
 http://45.155.90.52/live/play/TjJWeFQxWnlUek5YTWxwMFMyRlhaMUF5Y25KNGFpdFBjMkV4ZHpKNFZHazVWRzVwU0RGU1J6VmFaejA9/7731
 
-#EXTINF:-1 group-title="Sports",Fussball TV
-http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/1949446.m3u8
 
 #EXTINF:-1 group-title="Sports",Euro Sports HD
 https://sm-monirul.top/toffee/play/euro_sports_hd.m3u8
 
-#EXTINF:-1 group-title="Sports" tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg",Bein Sports 1 Max 
-http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/146122.m3u8
 
 
 # ==========================================
