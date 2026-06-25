@@ -100,32 +100,194 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 #EXTINF:-1 group-title="Bangladesh",Thikana TV
 https://5dd3981940faa.streamlock.net:443/thikanatv/thikanatv/playlist.m3u8
 
-#EXTINF:-1 group-title="Bangladesh",Padma Online
-https://padmaonline.duckdns.org:8088/pcv/index.m3u8
-
 #EXTINF:-1 group-title="Bangladesh",Rajdhani Web
 https://stream.shariarsuvo.com/hls6/rajdhaniweb.m3u8
 
-#EXTINF:-1 group-title="Bangladesh",Nagorik TV
-http://jatrapala.com/live-tv/nagorik-tv.html
-
-#EXTINF:-1 group-title="Bangladesh",Gazi TV (GTV)
-http://jatrapala.com/live-tv/gazi-tv.html
 
 #EXTINF:-1 group-title="Bangladesh",Ayna TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkV3PTOmdFseWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 group-title="Bangladesh",SA TV
-https://localiptv.vercel.app/watch/sa-tv
-
-#EXTINF:-1 group-title="Bangladesh",My TV
-https://localiptv.vercel.app/watch/my-tv
 
 #EXTINF:-1 group-title="Bangladesh",SRK TV
 https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 
 #EXTINF:-1 group-title="Bangladesh",G Series Drama
 https://vods2.aynaott.com/gseriesDrama/index.m3u8
+
+
+# ==========================================
+# 🎬 ENTERTAINMENT & SERIALS
+# ==========================================
+
+#EXTINF:-1 group-title="Entertainment",Live Bangla TV Stream
+https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8
+
+#EXTINF:-1 group-title="Entertainment",Aakaash Aath
+https://live.thebosstv.com:30443/dwlive/AAKAASH-AATH/playlist.m3u8
+
+
+#EXTINF:-1 group-title="Entertainment",Zee Bangla HD
+https://sm-monirul.top/toffee/play/zee_bangla.m3u8
+
+#EXTINF:-1 group-title="Entertainment",Zee Bollywood
+https://sm-monirul.top/toffee/play/zee_bollywood.m3u8
+
+#EXTINF:-1 group-title="Entertainment",Zee Action
+https://sm-monirul.top/toffee/play/zee_action.m3u8
+
+#EXTINF:-1 group-title="Entertainment",Zee Cafe HD
+https://sm-monirul.top/toffee/play/zee_cafe_hd.m3u8
+
+#EXTINF:-1 group-title="Entertainment",Zee Cinema HD
+https://sm-monirul.top/toffee/play/zee_cinema_hd.m3u8
+
+#EXTINF:-1 group-title="Entertainment",Sony Max HD
+https://sm-monirul.top/toffee/play/sony_max.m3u8
+
+#EXTINF:-1 group-title="Entertainment",Sony Pix HD
+https://sm-monirul.top/toffee/play/sonypix_hd.m3u8
+
+#EXTINF:-1 group-title="Entertainment",Sony Max 2
+https://sm-monirul.top/toffee/play/sonymax_2.m3u8
+
+#EXTINF:-1 group-title="Movies",Zee TV HD
+https://sm-monirul.top/toffee/play/zee_tv_hd.m3u8
+
+
+#EXTINF:-1 group-title="Movies",Goldmines
+https://cdn-2.pishow.tv/live/1459/master.m3u8
+
+#EXTINF:-1 group-title="Movies",Goldmines Movies
+https://cdn-2.pishow.tv/live/1461/master.m3u8
+
+
+# ==========================================
+# 🍿 MOVIES & CINEMA
+# ==========================================
+
+#EXTINF:-1 group-title="Movies",Hindi Classic 24
+https://vods2.aynaott.com/hindimovies/index.m3u8
+
+#EXTINF:-1 group-title="Movies",South Indian Movies
+https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 group-title="Movies",B4U Movies
+https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="Movies",Movie Stream
+https://cdn-2.pishow.tv/live/227/master.m3u8
+
+#EXTINF:-1 group-title="Movies",Action Hollywood
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
+
+#EXTINF:-1 group-title="Movies",Sony Max
+http://jatrapala.com/live-tv/sony-max.html
+
+#EXTINF:-1 group-title="Movies",Sony Pix
+http://jatrapala.com/live-tv/sony-pix.html
+
+#EXTINF:-1 group-title="Movies",And Pictures
+http://jatrapala.com/live-tv/and-picture.html
+
+#EXTINF:-1 group-title="Movies",Zee Cinema
+http://jatrapala.com/live-tv/zee-cinema.html
+
+#EXTINF:-1 group-title="Movies",Akash Crimes
+https://nomawnoijl.gpcdn.net/akash/crimes/playlist.m3u8
+
+#EXTINF:-1 group-title="Movies",Akash Uniques
+https://nomawnoijl.gpcdn.net/akash/uniques/playlist.m3u8
+
+#EXTINF:-1 group-title="Movies",Akash Cine Edge
+https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8
+
+#EXTINF:-1 group-title="Movies",Akash Screem
+https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8
+
+#EXTINF:-1 group-title="Movies",Akash Intelligence
+https://nomawnoijl.gpcdn.net/akash/intelligence/playlist.m3u8
+
+#EXTINF:-1 group-title="Movies",Movies HLS
+https://moviethls.wns.live/hls/stream.m3u8
+
+
+# ==========================================
+# 🎵 MUSIC
+# ==========================================
+
+#EXTINF:-1 group-title="Music",9X Tashan
+https://wiselp.wiseplayout.com/9X_Tashan/master.m3u8
+
+#EXTINF:-1 group-title="Music",9X Jalwa
+https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8
+
+#EXTINF:-1 group-title="Music",Sangeet Bangla
+https://cdn-4.pishow.tv/live/1143/master.m3u8
+
+#EXTINF:-1 group-title="Music",Bengali Beats
+https://tplay.live/originals/bengali-beats/index.m3u8
+
+#EXTINF:-1 group-title="Music",Akash Party Universe
+https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8
+
+
+# ==========================================
+# 👶 CARTOON & KIDS
+# ==========================================
+
+#EXTINF:-1 group-title="Cartoon",Motu Patlu TV
+https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 group-title="Cartoon",Tom & Jerry TV
+https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 group-title="Cartoon",Cartoon Network HD
+https://sm-monirul.top/toffee/play/cartoon_network_hd.m3u8
+
+#EXTINF:-1 group-title="Cartoon",Bantul The Great TV
+https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 group-title="Cartoon",Doraemon TV
+https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 group-title="Cartoon",Gopal Bhar TV
+https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 group-title="Cartoon",Akash Nikky
+https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8
+
+#EXTINF:-1 group-title="Cartoon",Rongeen TV
+https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="Cartoon",And Pictures HD (Kids Block)
+https://sm-monirul.top/toffee/play/andpicture_hd.m3u8
+
+
+# ==========================================
+# 🌍 DOCUMENTARY & ISLAMIC
+# ==========================================
+
+#EXTINF:-1 group-title="Documentary",Discovery SD
+https://sm-monirul.top/toffee/play/discovery_sd.m3u8
+
+#EXTINF:-1 group-title="Documentary",National Geographic
+http://jatrapala.com/live-tv/national-geographic.html
+
+#EXTINF:-1 group-title="Documentary",Animal Planet
+http://jatrapala.com/live-tv/animal-planet.html
+
+#EXTINF:-1 group-title="Documentary",CGTN Documentary
+https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8
+
+#EXTINF:-1 group-title="Documentary",Discover Pakistan
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/discoverpakistan.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Islamic",Ilm TV
+https://tplay.live/originals/ilm-tv/index.m3u8  
+
+#EXTINF:-1 group-title="Islamic",Peace TV Bangla
+https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8
+
 
 # ⚽ SPORTS CHANNELS
 # ==========================================
@@ -252,182 +414,15 @@ https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8
 https://sm-monirul.top/toffee/play/euro_sports_hd.m3u8
 
 
-# ==========================================
-# 🎬 ENTERTAINMENT & SERIALS
-# ==========================================
-
-#EXTINF:-1 group-title="Entertainment",Zee Bangla HD
-https://sm-monirul.top/toffee/play/zee_bangla.m3u8
-
-#EXTINF:-1 group-title="Entertainment",Zee Bollywood
-https://sm-monirul.top/toffee/play/zee_bollywood.m3u8
-
-#EXTINF:-1 group-title="Entertainment",Zee Action
-https://sm-monirul.top/toffee/play/zee_action.m3u8
-
-#EXTINF:-1 group-title="Entertainment",Sony Max HD
-https://sm-monirul.top/toffee/play/sony_max.m3u8
-
-#EXTINF:-1 group-title="Entertainment",Sony Pix HD
-https://sm-monirul.top/toffee/play/sonypix_hd.m3u8
-
-#EXTINF:-1 group-title="Entertainment",Zee Cafe HD
-https://sm-monirul.top/toffee/play/zee_cafe_hd.m3u8
-
-#EXTINF:-1 group-title="Entertainment",Sony Max 2
-https://sm-monirul.top/toffee/play/sonymax_2.m3u8
-
-#EXTINF:-1 group-title="Entertainment",Zee Cinema HD
-https://sm-monirul.top/toffee/play/zee_cinema_hd.m3u8
-
-#EXTINF:-1 group-title="Entertainment",Live Bangla TV Stream
-https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8
-
-#EXTINF:-1 group-title="Entertainment",Aakaash Aath
-https://live.thebosstv.com:30443/dwlive/AAKAASH-AATH/playlist.m3u8
-
-#EXTINF:-1 group-title="Entertainment",Star Jalsha
-http://jatrapala.com/live-tv/star-jalsha.html
-
-#EXTINF:-1 group-title="Entertainment",Zee Bangla
-http://jatrapala.com/live-tv/zee-bangla.html
-
-#EXTINF:-1 group-title="Entertainment",Colors Bangla
-http://jatrapala.com/live-tv/colors-bangla.html
 
 
-# ==========================================
-# 🍿 MOVIES & CINEMA
-# ==========================================
-
-#EXTINF:-1 group-title="Movies",Zee TV HD
-https://sm-monirul.top/toffee/play/zee_tv_hd.m3u8
-
-#EXTINF:-1 group-title="Movies",Akash Crimes
-https://nomawnoijl.gpcdn.net/akash/crimes/playlist.m3u8
-
-#EXTINF:-1 group-title="Movies",Akash Uniques
-https://nomawnoijl.gpcdn.net/akash/uniques/playlist.m3u8
-
-#EXTINF:-1 group-title="Movies",Goldmines
-https://cdn-2.pishow.tv/live/1459/master.m3u8
-
-#EXTINF:-1 group-title="Movies",Goldmines Movies
-https://cdn-2.pishow.tv/live/1461/master.m3u8
-
-#EXTINF:-1 group-title="Movies",Hindi Classic 24
-https://vods2.aynaott.com/hindimovies/index.m3u8
-
-#EXTINF:-1 group-title="Movies",South Indian Movies
-https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="Movies",B4U Movies
-https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="Movies",Movie Stream
-https://cdn-2.pishow.tv/live/227/master.m3u8
-
-#EXTINF:-1 group-title="Movies",Action Hollywood
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
-
-#EXTINF:-1 group-title="Movies",Sony Max
-http://jatrapala.com/live-tv/sony-max.html
-
-#EXTINF:-1 group-title="Movies",Sony Pix
-http://jatrapala.com/live-tv/sony-pix.html
-
-#EXTINF:-1 group-title="Movies",And Pictures
-http://jatrapala.com/live-tv/and-picture.html
-
-#EXTINF:-1 group-title="Movies",Zee Cinema
-http://jatrapala.com/live-tv/zee-cinema.html
-
-#EXTINF:-1 group-title="Movies",Akash Cine Edge
-https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8
-
-#EXTINF:-1 group-title="Movies",Akash Screem
-https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8
-
-#EXTINF:-1 group-title="Movies",Akash Intelligence
-https://nomawnoijl.gpcdn.net/akash/intelligence/playlist.m3u8
-
-#EXTINF:-1 group-title="Movies",Movies HLS
-https://moviethls.wns.live/hls/stream.m3u8
 
 
-# ==========================================
-# 🎵 MUSIC
-# ==========================================
-
-#EXTINF:-1 group-title="Music",9X Tashan
-https://wiselp.wiseplayout.com/9X_Tashan/master.m3u8
-
-#EXTINF:-1 group-title="Music",9X Jalwa
-https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8
-
-#EXTINF:-1 group-title="Music",Sangeet Bangla
-https://cdn-4.pishow.tv/live/1143/master.m3u8
-
-#EXTINF:-1 group-title="Music",Bengali Beats
-https://tplay.live/originals/bengali-beats/index.m3u8
-
-#EXTINF:-1 group-title="Music",Akash Party Universe
-https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8
 
 
-# ==========================================
-# 👶 CARTOON & KIDS
-# ==========================================
-
-#EXTINF:-1 group-title="Cartoon",Motu Patlu TV
-https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="Cartoon",Tom & Jerry TV
-https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="Cartoon",Cartoon Network HD
-https://sm-monirul.top/toffee/play/cartoon_network_hd.m3u8
-
-#EXTINF:-1 group-title="Cartoon",Bantul The Great TV
-https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="Cartoon",Doraemon TV
-https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="Cartoon",Gopal Bhar TV
-https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="Cartoon",Akash Nikky
-https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8
-
-#EXTINF:-1 group-title="Cartoon",Rongeen TV
-https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 group-title="Cartoon",And Pictures HD (Kids Block)
-https://sm-monirul.top/toffee/play/andpicture_hd.m3u8
 
 
-# ==========================================
-# 🌍 DOCUMENTARY & ISLAMIC
-# ==========================================
 
-#EXTINF:-1 group-title="Documentary",Discovery SD
-https://sm-monirul.top/toffee/play/discovery_sd.m3u8
 
-#EXTINF:-1 group-title="Documentary",National Geographic
-http://jatrapala.com/live-tv/national-geographic.html
 
-#EXTINF:-1 group-title="Documentary",Animal Planet
-http://jatrapala.com/live-tv/animal-planet.html
 
-#EXTINF:-1 group-title="Documentary",CGTN Documentary
-https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8
-
-#EXTINF:-1 group-title="Documentary",Discover Pakistan
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/discoverpakistan.stream/playlist.m3u8
-
-#EXTINF:-1 group-title="Islamic",Ilm TV
-https://tplay.live/originals/ilm-tv/index.m3u8  
-
-#EXTINF:-1 group-title="Islamic",Peace TV Bangla
-https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8
