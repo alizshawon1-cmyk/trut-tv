@@ -67,7 +67,8 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/1722.m3u8
 #EXTINF:-1 group-title="Bangladesh",Ekushey TV
 http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
 
-
+#EXTINF:-1,Nagorik TV
+http://180.94.28.28:8097//Nagorik-TV/index.fmp4.m3u8
 
 #EXTINF:-1 group-title="Bangladesh",Bangla TV
 https://sm-monirul.top/toffee/play/bangla_tv.m3u8
@@ -104,6 +105,19 @@ https://vods2.aynaott.com/gseriesDrama/index.m3u8
 # ==========================================
 # 🎬 ENTERTAINMENT & SERIALS
 # ==========================================
+
+
+#EXTINF:-1,Colors Bangla
+http://180.94.28.28:8097//COLORS-BANGLA/index.fmp4.m3u8
+
+#EXTINF:-1,Colors Bangla Cinema
+http://180.94.28.28:8097//COLORS-BANGLA-CINEMA/index.fmp4.m3u8
+
+#EXTINF:-1,Sun Bangla
+http://180.94.28.28:8097//SUN-BANGLA/index.fmp4.m3u8
+
+#EXTINF:-1,Jalsha Movies
+http://180.94.28.28:8097//JALSHA-MOVIES/index.fmp4.m3u8
 
 #EXTINF:-1 group-title="Entertainment",Live Bangla TV Stream
 https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8
@@ -196,6 +210,9 @@ https://nomawnoijl.gpcdn.net/akash/intelligence/playlist.m3u8
 #EXTINF:-1 group-title="Movies",Movies HLS
 https://moviethls.wns.live/hls/stream.m3u8
 
+#EXTINF:-1,Movies Now
+http://180.94.28.28:8097//MOVIES-NOW/index.fmp4.m3u8
+
 
 # ==========================================
 # 🎵 MUSIC
@@ -256,11 +273,9 @@ https://sm-monirul.top/toffee/play/andpicture_hd.m3u8
 #EXTINF:-1 group-title="Documentary",Discovery SD
 https://sm-monirul.top/toffee/play/discovery_sd.m3u8
 
-#EXTINF:-1 group-title="Documentary",National Geographic
-http://jatrapala.com/live-tv/national-geographic.html
+#EXTINF:-1,Nat Geo Bangla
+http://180.94.28.28:8097//NAT-GEO-BANGLA/index.fmp4.m3u8
 
-#EXTINF:-1 group-title="Documentary",Animal Planet
-http://jatrapala.com/live-tv/animal-planet.html
 
 #EXTINF:-1 group-title="Documentary",CGTN Documentary
 https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8
@@ -277,7 +292,23 @@ https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8
 
 # ⚽ SPORTS CHANNELS
 # ==========================================
+
 EXTM3U
+
+#EXTINF:-1,A Sports
+http://180.94.28.28:8097//A-Sports/index.fmp4.m3u8
+
+#EXTINF:-1,Star Sports 1
+http://180.94.28.28:8097//STAR-SPORTS-1/index.fmp4.m3u8
+
+#EXTINF:-1,Star Sports Select 1
+http://180.94.28.28:8097//Star-Sports-Select-1/index.fmp4.m3u8
+
+#EXTINF:-1,Star Sports Select 2
+http://180.94.28.28:8097//star-Sports-Select-2/index.fmp4.m3u8
+
+#EXTINF:-1,Star Sports 3
+http://180.94.28.28:8097//Star-Sports-3/index.fmp4.m3u8
 
 #EXTINF:-1 group-title="Sports",TV Premium Pro 1
 http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579823.m3u8
