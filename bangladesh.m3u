@@ -276,15 +276,12 @@ https://sm-monirul.top/toffee/play/discovery_sd.m3u8
 #EXTINF:-1,Nat Geo Bangla
 http://180.94.28.28:8097//NAT-GEO-BANGLA/index.fmp4.m3u8
 
-
 #EXTINF:-1 group-title="Documentary",CGTN Documentary
 https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8
 
 #EXTINF:-1 group-title="Documentary",Discover Pakistan
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/discoverpakistan.stream/playlist.m3u8
 
-#EXTINF:-1 group-title="Islamic",Ilm TV
-https://tplay.live/originals/ilm-tv/index.m3u8  
 
 #EXTINF:-1 group-title="Islamic",Peace TV Bangla
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8
@@ -310,102 +307,6 @@ http://180.94.28.28:8097//star-Sports-Select-2/index.fmp4.m3u8
 #EXTINF:-1,Star Sports 3
 http://180.94.28.28:8097//Star-Sports-3/index.fmp4.m3u8
 
-#EXTINF:-1 group-title="Sports",TV Premium Pro 1
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579823.m3u8
-
-#EXTINF:-1 group-title="Sports",TV Premium Pro 2
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579821.m3u8
-
-#EXTINF:-1 group-title="Sports",TV Premium Pro 3
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/280823.m3u8
-
-#EXTINF:-1 group-title="Sports",TV Premium Pro 4
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579826.m3u8
-
-#EXTINF:-1 group-title="Sports",StarHub Stream 1
-http://starhub.pro/live/farhat-3379/67897-913379/742610.ts
-
-#EXTINF:-1 group-title="Sports",StarHub Stream 2
-http://starhub.pro/live/farhat-3379/67897-913379/18452.ts
-
-#EXTINF:-1 group-title="Sports",MMN Sport
-http://mmn.mypsx.net:1935/live/mmnhdsport/chunklist.m3u8
-
-#EXTINF:-1 group-title="Sports",Eleven Sports
-http://znty.dyndns.org:5010/hls/eleven1.m3u8
-
-#EXTINF:-1 group-title="Sports",Caze TV 1080p
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
-
-#EXTINF:-1 group-title="Sports",Caze TV 720p
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/720p-vtt/index.m3u8
-
-#EXTINF:-1 group-title="Sports",OTT Club 6408
-http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/6408/index.m3u8
-
-#EXTINF:-1 group-title="Sports",OTT Club 18000
-http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/18000/index.m3u8
-
-#EXTINF:-1 group-title="Sports",OTT Club 18001
-http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/18001/index.m3u8
-
-#EXTINF:-1 group-title="Sports",Bein Sports Extra
-https://amg01334-beinsportsllc-beinxtraesp-localnow-aekzc.amagi.tv/playlistR1080p.m3u8
-
-#EXTINF:-1 group-title="Sports",AndFlix HD
-http://212.102.34.8:9080/AndFlixHD/video.m3u8
-
-#EXTINF:-1 group-title="Sports",Hakuna Stalker 260
-http://stalker.hakunamata.workers.dev/play/260/index.m3u8
-
-#EXTINF:-1 group-title="Sports",Hakuna Stalker 261
-http://stalker.hakunamata.workers.dev/play/261/index.m3u8
-
-#EXTINF:-1 group-title="Sports",Hakuna Stalker 262
-http://stalker.hakunamata.workers.dev/play/262/index.m3u8
-
-#EXTINF:-1 group-title="Sports",Hakuna Stalker 1100
-http://stalker.hakunamata.workers.dev/play/1100/index.m3u8
-
-#EXTINF:-1 group-title="Sports",Sofast TV
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
-
-#EXTINF:-1 group-title="Sports",As Spor
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8
-
-#EXTINF:-1 group-title="Sports",NBC Puerto Rico
-https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
-
-#EXTINF:-1 group-title="Sports",NBC Puerto Rico 720
-https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_720.m3u8
-
-#EXTINF:-1 group-title="Sports",Dienalt 2531
-http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2531/index.m3u8
-
-#EXTINF:-1 group-title="Sports",Dienalt 2561
-http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2561/index.m3u8
-
-#EXTINF:-1 group-title="Sports",Mega TV 19146
-http://y3fqd48g.megatv.fun/iptv/NRLXRWSBWBPLN4/19146/index.m3u8
-
-#EXTINF:-1 group-title="Sports",Online24
-http://ua.online24.pm/play/1101/350B326FB34F4B8/video.m3u8
-
-#EXTINF:-1 group-title="Sports",Siauliair 9155
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/VCQ4ADX96VH4G8PY7URBWRQU/9155/index.m3u8
-
-#EXTINF:-1 group-title="Sports",Premium Space
-http://premiumtvs.space/live/jen12345/Jen54321/89.ts
-
-#EXTINF:-1 group-title="Sports",RGKKW Stream
-http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/741566.ts
-
-#EXTINF:-1 group-title="Sports",Stream 4000
-http://45.5.119.43:4000/play/a05t/index.m3u8
-
-#EXTINF:-1 group-title="Sports",Stream 8000
-http://200.115.120.1:8000/play/ca016/index.m3u8
-
 #EXTINF:-1 group-title="Sports",Sony Sports Ten 1 HD
 https://sm-monirul.top/toffee/play/sony_sports_1_hd.m3u8
 
@@ -418,18 +319,40 @@ https://sm-monirul.top/toffee/play/sony_sports_5_hd.m3u8
 #EXTINF:-1 group-title="Sports",Ten Cricket
 https://sm-monirul.top/toffee/play/ten_cricket.m3u8
 
-#EXTINF:-1 group-title="Sports",Win Sports
-https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
-
-#EXTINF:-1 group-title="Sports",Dazn Direct
-https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
-
-#EXTINF:-1 group-title="Sports",TUDN Sports
-https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8
 
 #EXTINF:-1 group-title="Sports",Euro Sports HD
 https://sm-monirul.top/toffee/play/euro_sports_hd.m3u8
 
+#EXTINF:-1 group-title="Sports",Siauliair 9155
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/VCQ4ADX96VH4G8PY7URBWRQU/9155/index.m3u8
+
+
+#EXTINF:-1 group-title="Sports",Bein Sports Extra
+https://amg01334-beinsportsllc-beinxtraesp-localnow-aekzc.amagi.tv/playlistR1080p.m3u8
+
+
+#EXTINF:-1 group-title="Sports",As Spor
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8
+
+
+#EXTINF:-1 group-title="Sports",Online24
+http://ua.online24.pm/play/1101/350B326FB34F4B8/video.m3u8
+
+
+#EXTINF:-1 group-title="Sports",Win Sports
+https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
+
+
+#EXTINF:-1 group-title="Sports",TUDN Sports
+https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8
+
+
+#EXTINF:-1 group-title="Sports",Caze TV 1080p
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
+
+
+#EXTINF:-1 group-title="Sports",Caze TV 720p
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/720p-vtt/index.m3u8
 
 
 
