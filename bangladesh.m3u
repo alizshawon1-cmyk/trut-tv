@@ -180,17 +180,6 @@ https://cdn-2.pishow.tv/live/227/master.m3u8
 #EXTINF:-1 group-title="Movies",Action Hollywood
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
 
-#EXTINF:-1 group-title="Movies",Sony Max
-http://jatrapala.com/live-tv/sony-max.html
-
-#EXTINF:-1 group-title="Movies",Sony Pix
-http://jatrapala.com/live-tv/sony-pix.html
-
-#EXTINF:-1 group-title="Movies",And Pictures
-http://jatrapala.com/live-tv/and-picture.html
-
-#EXTINF:-1 group-title="Movies",Zee Cinema
-http://jatrapala.com/live-tv/zee-cinema.html
 
 #EXTINF:-1 group-title="Movies",Akash Crimes
 https://nomawnoijl.gpcdn.net/akash/crimes/playlist.m3u8
