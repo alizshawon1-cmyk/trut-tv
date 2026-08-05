@@ -28,7 +28,7 @@ http://103.165.93.31:8095/channel24/tracks-a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561344354.png" group-title="Bangladesh",Bangla Vision
 http://103.165.93.31:8095/banglaVision/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png" group-title="Bangladesh",NTV
-https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
+http://103.165.93.31:8095/ntv/tracks-v1a1/mono.m3u8 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/ATN_Bangla.png" group-title="Bangladesh",ATN Bangla
 http://103.165.93.31:8095/atnBangla/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/RTV.png" group-title="Bangladesh",Rtv
