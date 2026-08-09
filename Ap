@@ -205,3 +205,33 @@ https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.clo
 https://1nyaler.streamhostingcdn.top/stream/10/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/PTV%20Sports.png" group-title="Sports",PTV Sports
 https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8
+
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="Sport Stream 1" group-title="Sports",Sport 1
+http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1104679&extension=ts&play_token=CXNwWmW6Eu
+#EXTINF:-1 tvg-id="" tvg-name="Sport Stream 2" group-title="Sports",Sport 2
+http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1104670&extension=ts&play_token=mmR7kl1Gb1
+#EXTINF:-1 tvg-id="" tvg-name="Sport Stream 3" group-title="Sports",Sport 3
+http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1106876&extension=ts&play_token=gjYP3J9vVJ
+#EXTINF:-1 tvg-id="" tvg-name="Sport Stream 4" group-title="Sports",Sport 4
+http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1106877&extension=ts&play_token=sE0o1ywwfW
+#EXTINF:-1 tvg-id="" tvg-name="Sport Stream 5" group-title="Sports",Sport 5
+http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1104678&extension=ts&play_token=4WeF0zcpvZ
+#EXTINF:-1 tvg-id="" tvg-name="Sport Stream 6" group-title="Sports",Sport 6
+http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1425812&extension=ts&play_token=ezZfC0rPaW
+#EXTINF:-1 tvg-id="" tvg-name="Sport Stream 7" group-title="Sports",Sport 7
+http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1142110&extension=ts&play_token=JWLaRoGWXT
+#EXTINF:-1 tvg-id="" tvg-name="Sport Stream 8" group-title="Sports",Sport 8
+http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1104676&extension=ts&play_token=sviVSnwKws
+#EXTINF:-1 tvg-id="" tvg-name="Sport Stream 9" group-title="Sports",Sport 9
+http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1104673&extension=ts&play_token=VL6AnTnn5V
+#EXTINF:-1 tvg-id="" tvg-name="Sport Stream 10" group-title="Sports",Sport 10
+http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1104672&extension=ts&play_token=llnna3hdeq
+#EXTINF:-1 tvg-id="" tvg-name="Sport Stream 11" group-title="Sports",Sport 11
+http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1106878&extension=ts&play_token=HpM8D2FfkG
+#EXTINF:-1 tvg-id="" tvg-name="Sport Stream 12" group-title="Sports",Sport 12
+http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1106883&extension=ts&play_token=RTcTQvrtzW
+#EXTINF:-1 tvg-id="" tvg-name="Sport Stream 13" group-title="Sports",Sport 13
+http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1106886&extension=ts&play_token=X6fhziMlgF
+
+
