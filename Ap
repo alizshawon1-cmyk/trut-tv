@@ -197,16 +197,12 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 https://playztv-apps.pages.dev/asports/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/73/Star_Sports_1_HD.png" group-title="Sports",Star Sports 1 HD
 https://tvsen7.aynaott.com/sspts1/tracks-v1a1/mono.ts.m3u8
-
 #EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/fmz6L0mlFDCRRudZ01RUk_DOLF6ITxEyRYysb2DRDp-mhle4cnsyi5QGF00tSNjPR_B2" group-title="Sports",Willow TV 540p
 https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2d/SkySportsHD.png" group-title="Sports",Sky sports
 https://1nyaler.streamhostingcdn.top/stream/10/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/PTV%20Sports.png" group-title="Sports",PTV Sports
 https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8
-
-#EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="Sport Stream 1" group-title="Sports",Sport 1
 http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1104679&extension=ts&play_token=CXNwWmW6Eu
 #EXTINF:-1 tvg-id="" tvg-name="Sport Stream 2" group-title="Sports",Sport 2
@@ -233,5 +229,4 @@ http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1106878&ex
 http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1106883&extension=ts&play_token=RTcTQvrtzW
 #EXTINF:-1 tvg-id="" tvg-name="Sport Stream 13" group-title="Sports",Sport 13
 http://innovationdns.eu:80/play/live.php?mac=00:1A:79:11:C4:7A&stream=1106886&extension=ts&play_token=X6fhziMlgF
-
 
