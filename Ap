@@ -3,7 +3,7 @@
 https://tvsen3.aynaott.com/Sports1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png" group-title="Bangladesh",BTV
-https://s1.itcnbd.live/btv/tracks-v1a1/mono.m3u8
+http://103.151.60.188:12345/hls/tab_1jj967b/index.m3u8?t=1786431005622
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Zqgx8hm1/20260430-184013.png" group-title="𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡",Channel 1
 https://stream.ottplus.live/live/channel_1_hd_abr/live/channel_1_hd_720/chunks.m3u8?
@@ -67,7 +67,7 @@ https://tvsen5.aynaott.com/RtvHD/tracks-v1a1/mono.ts.m3u8
 https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/tracks-v1a1/mono.ts.m3u8?e=1782665440
 
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/-Xz3PJwBcqxnFHJBDAlE/posters/fecea361-8b60-4aeb-a530-6e27eee8178a.png" group-title="Bangladesh",Mohona TV
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8
+http://103.151.60.188:12345/hls/tab_1jj967b/index.m3u8?t=1786430836703
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Gazi%20TV.jpg" group-title="Bangladesh",Gazi TV
 https://app.ncare.live/live-orgin/gazibdz.stream/live-orgin/gazibdz.stream/chunks.m3u8
@@ -76,7 +76,7 @@ https://app.ncare.live/live-orgin/gazibdz.stream/live-orgin/gazibdz.stream/chunk
 https://playztv-apps.pages.dev/boishakhi-tv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/bns4l5sBcqxnFHJBVZ32/posters/feaf9f3d-cc3b-4a3d-81a3-2cb703e561eb.png" group-title="Bangladesh",Bijoy TV
-http://103.151.60.188:12345/hls/tab_2lucvx7/index.m3u8?t=1786284800634
+http://103.151.60.188:12345/hls/tab_1jj967b/index.m3u8?t=1786431170835
 
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/wCM3l5sBEef-9-uVXFvD/posters/d80f7aee-5bd7-4edc-97eb-ead0e3ebbe09.png" group-title="Bangladesh",Ananda TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8
@@ -85,7 +85,7 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="Live Stream",Live Channe sa
-http://103.151.60.188:12345/hls/tab_ywer6cw/index.m3u8?t=1786281623419
+http://103.151.60.188:12345/hls/tab_1jj967b/index.m3u8?t=1786431247881
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Channel_S_Official_LOGO.png" group-title="Bangladesh",Channel S
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
@@ -103,14 +103,14 @@ https://biostartvworld.pages.dev/api/key/aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWx
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wB9kQDTZ/20240822-225812.png" group-title="𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡",My TV
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8
+http://103.151.60.188:12345/hls/tab_1jj967b/index.m3u8?t=1786430879105
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/0ykfppN3/20240822-231405.png" group-title="𝐈𝐧Z-Banga",Star Jalsha HD
 https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/5tjSrbLS/20240822-231445.png" group-title="𝐈𝐧Z-Banga",Zee Bangla HD
 https://yupptvcatchupire.yuppcdn.net/preview/zeebangla/2500.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Kc7BJRCy/20240823-020704.png" group-title="𝐈𝐧Z-Banga",Sananda TV
-https://live.sanandatelevision.in/sananda/tracks-v1a1/mono.m3u8\
+https://live.sanandatelevision.in/sananda/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="Movies",Jalsha Movies
 http://103.165.93.31:8095/jalshaMovies/tracks-v1a1/mono.m3u8
