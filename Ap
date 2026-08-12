@@ -67,7 +67,7 @@ https://tvsen5.aynaott.com/RtvHD/tracks-v1a1/mono.ts.m3u8
 https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/tracks-v1a1/mono.ts.m3u8?e=1782665440
 
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/-Xz3PJwBcqxnFHJBDAlE/posters/fecea361-8b60-4aeb-a530-6e27eee8178a.png" group-title="Bangladesh",Mohona TV
-http://103.151.60.188:12345/hls/tab_xmkxjyh/index.m3u8?t=1786517170790
+https://s3.itcnbd.live/server-2/proxy/mohona_tv/playlist?u=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fslang%2Fmohona_tv_576%2Fmohona_tv_576.m3u8%3Fbitrate%3D1000000%26channel%3Dmohona_tv_576%26gp_id%3D
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Gazi%20TV.jpg" group-title="Bangladesh",Gazi TV
 https://app.ncare.live/live-orgin/gazibdz.stream/live-orgin/gazibdz.stream/chunks.m3u8
@@ -76,7 +76,7 @@ https://app.ncare.live/live-orgin/gazibdz.stream/live-orgin/gazibdz.stream/chunk
 https://playztv-apps.pages.dev/boishakhi-tv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/bns4l5sBcqxnFHJBVZ32/posters/feaf9f3d-cc3b-4a3d-81a3-2cb703e561eb.png" group-title="Bangladesh",Bijoy TV
-http://103.151.60.188:12345/hls/tab_xmkxjyh/index.m3u8?t=1786517558883
+https://s3.itcnbd.live/server-2/proxy/bijoytv/playlist?u=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fslang%2Fbijoytv_576%2Fbijoytv_576.m3u8%3Fbitrate%3D1000000%26channel%3Dbijoytv_576%26gp_id%3D
 
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/wCM3l5sBEef-9-uVXFvD/posters/d80f7aee-5bd7-4edc-97eb-ead0e3ebbe09.png" group-title="Bangladesh",Ananda TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8
