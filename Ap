@@ -234,3 +234,7 @@ http://99gopro.org:8080/live/4626949532222763/4626949532222763/319084.ts
 #EXTINF:-1, Stream 20
 http://99gopro.org:8080/live/4626949532222763/4626949532222763/319081.ts
 
+#EXTINF:-1, Stream 1
+http://tvmate.icu:8080/live/caGpK1/499606/58847.ts
+#EXTINF:-1, Stream 2
+http://tvmate.icu:8080/live/caGpK1/499606/45940.ts
