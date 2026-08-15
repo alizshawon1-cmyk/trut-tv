@@ -214,8 +214,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Documentary",Discover Pakistan
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/discoverpakistan.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/W1z5BGPZ/20240823_024712.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",A Sports HD
-https://playztv-apps.pages.dev/asports/index.m3u8
 
 #EXTINF:-1,Stream 1
 http://202.70.146.135:8000/play/a05o/index.m3u8
@@ -223,7 +221,8 @@ http://202.70.146.135:8000/play/a05o/index.m3u8
 http://202.70.146.135:8000/play/a05z/index.m3u8
 #EXTINF:-1,Animal Planet HD
 https://stream.ottplus.bd/live/animal_planet_hd_abr/live/animal_planet_hd/chunks.m3u8
-
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/W1z5BGPZ/20240823_024712.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",A Sports HD
+https://playztv-apps.pages.dev/asports/index.m3u8
 #EXTINF:-1, T Sports HD
 https://tvsen3.aynaott.com/Sports1/mono.m3u8
 #EXTINF:-1,Sky Cricket
