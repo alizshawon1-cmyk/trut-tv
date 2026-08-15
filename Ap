@@ -160,6 +160,22 @@ https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist
 https://vods2.aynaott.com/hindimovies/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movies",South Indian Movies
 https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1, Stream 1
+http://99gopro.org:8080/live/4626949532222763/4626949532222763/318828.ts
+#EXTINF:-1, Stream 2
+http://99gopro.org:8080/live/4626949532222763/4626949532222763/318827.ts
+#EXTINF:-1, Stream 3
+http://99gopro.org:8080/live/4626949532222763/4626949532222763/318829.ts
+#EXTINF:-1, Stream 4
+http://99gopro.org:8080/live/4626949532222763/4626949532222763/318830.ts
+#EXTINF:-1, Stream 5
+http://99gopro.org:8080/live/4626949532222763/4626949532222763/318822.ts
+#EXTINF:-1, Stream 6
+http://99gopro.org:8080/live/4626949532222763/4626949532222763/318821.ts
+#EXTINF:-1, Stream 7
+http://99gopro.org:8080/live/4626949532222763/4626949532222763/318848.ts
+#EXTINF:-1, Stream 8
+http://99gopro.org:8080/live/4626949532222763/4626949532222763/318934.ts
 #EXTINF:-1 tvg-logo="" group-title="Music",B4U Music
 https://amg00877-b4unew-amg00877c3-xiaomi-in-5474.playouts.now.amagi.tv/1080p/index.m3u8
 #EXTINF:-1 tvg-id="ThikanaTV" tvg-name="Thikana TV" group-title="International",Thikana TV
@@ -193,22 +209,7 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/W1z5BGPZ/20240823_024712.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",A Sports HD
 https://playztv-apps.pages.dev/asports/index.m3u8
 
-#EXTINF:-1, Stream 1
-http://99gopro.org:8080/live/4626949532222763/4626949532222763/318828.ts
-#EXTINF:-1, Stream 2
-http://99gopro.org:8080/live/4626949532222763/4626949532222763/318827.ts
-#EXTINF:-1, Stream 3
-http://99gopro.org:8080/live/4626949532222763/4626949532222763/318829.ts
-#EXTINF:-1, Stream 4
-http://99gopro.org:8080/live/4626949532222763/4626949532222763/318830.ts
-#EXTINF:-1, Stream 5
-http://99gopro.org:8080/live/4626949532222763/4626949532222763/318822.ts
-#EXTINF:-1, Stream 6
-http://99gopro.org:8080/live/4626949532222763/4626949532222763/318821.ts
-#EXTINF:-1, Stream 7
-http://99gopro.org:8080/live/4626949532222763/4626949532222763/318848.ts
-#EXTINF:-1, Stream 8
-http://99gopro.org:8080/live/4626949532222763/4626949532222763/318934.ts
+
 #EXTINF:-1, Stream 9
 http://99gopro.org:8080/live/4626949532222763/4626949532222763/318956.ts
 #EXTINF:-1, Stream 10
@@ -233,7 +234,6 @@ http://99gopro.org:8080/live/4626949532222763/4626949532222763/319083.ts
 http://99gopro.org:8080/live/4626949532222763/4626949532222763/319084.ts
 #EXTINF:-1, Stream 20
 http://99gopro.org:8080/live/4626949532222763/4626949532222763/319081.ts
-
 #EXTINF:-1, Stream 1
 http://tvmate.icu:8080/live/caGpK1/499606/58847.ts
 #EXTINF:-1, Stream 2
