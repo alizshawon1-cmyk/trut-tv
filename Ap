@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png" group-title="Sports",T Sports
-https://tvsen3.aynaott.com/Sports1/mono.m3u8
+https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png" group-title="Bangladesh",BTV
 http://103.151.60.188:12345/hls/tab_9t1mjg3/index.m3u8?t=1786637871200
@@ -224,16 +224,33 @@ http://202.70.146.135:8000/play/a05z/index.m3u8
 #EXTINF:-1,Animal Planet HD
 https://stream.ottplus.bd/live/animal_planet_hd_abr/live/animal_planet_hd/chunks.m3u8
 
+#EXTINF:-1, T Sports HD
+https://tvsen3.aynaott.com/Sports1/mono.m3u8
 #EXTINF:-1,Sky Cricket
 http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9258/index.m3u8
 #EXTINF:-1,Sky Football
 http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9289/index.m3u8
 #EXTINF:-1,Star Sports 1
 http://41.205.93.154/STARSPORTS1/index.m3u8
-#EXTINF:-1,S Sport 2 HD
+#EXTINF:-1,Ster Sport 2 HD
 http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-#EXTINF:-1,Stream 5
+#EXTINF:-1,Star Sports  slect hd1
 http://202.70.146.135:8000/play/a03e/index.m3u8
+
+#EXTINF:-1, PTV Sports
+https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1, Sony Sports 1 HD
+https://s2.itcnbd.live/server-2/stream/sony_sports_1_hd.m3u8
+
+#EXTINF:-1, Sony Sports 2 HD
+https://s2.itcnbd.live/server-2/stream/sony_sports_2_hd.m3u8
+
+#EXTINF:-1, Ten Cricket HD
+https://s2.itcnbd.live/server-2/stream/ten_cricket.m3u8
+
+#EXTINF:-1, Star Sports  slect hd2
+https://s3.itcnbd.live/channel/ea25a516d781cb1c.m3u8
 
 
 
