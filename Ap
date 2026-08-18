@@ -87,7 +87,7 @@ https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Live Stream",bangla tv Channel
 https://tvsen6.aynaott.com/39ee93nUbCCmm5LsyD4t/tracks-v1a1/mono.ts.m3u8 
 
-#EXTINF:-1 tvg-logo="" group-title="Live Stream",Live Channel sa
+#EXTINF:-1 tvg-name="SATV" tvg-logo="https://sunplex.net/iptv/logo/satv.jpg" group-title="",SATV
 https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Channel_S_Official_LOGO.png" group-title="Bangladesh",Channel S
