@@ -3,7 +3,8 @@
 https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png" group-title="Bangladesh",BTV
-http://103.151.60.188:12345/hls/tab_9t1mjg3/index.m3u8?t=1786637871200
+
+https://cors-proxy.niloy2work.workers.dev/?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1725%2Foutput%2F1725-audio_113552_eng%3D113200-video%3D2202800.m3u8&headers=eyJlZGdlLXBvbGljeSI6ImV5SlRkR0YwWlcxbGJuUWlPbHQ3SWxKbGMyOTFjbU5sSWpvaWFIUjBjSE02THk5dmQzSmpiM1pqY25CNUxtZHdZMlJ1TG01bGRDOWljR3N0ZEhZdk1UY3lOUzl2ZFhSd2RYUXZLaUlzSWtOdmJtUnBkR2x2YmlJNmV5SkVZWFJsVEdWemMxUm9ZVzRpT25zaVJXUm5aVlJwYldVaU9qRTNPRGN6TWpnd05EUjlmWDFkZlEiLCJlZGdlLXNpZ25hdHVyZSI6IkZ2bGw3Ni16a0VjdXlJdHRKN2wxZTlUSkQzNTh6aTFhVzVodzd5YWxlMUUifQ%3D%3D
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Zqgx8hm1/20260430-184013.png" group-title="𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡",Channel 1
 https://stream.ottplus.live/live/channel_1_hd_abr/live/channel_1_hd_720/chunks.m3u8?
