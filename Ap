@@ -31,9 +31,8 @@ https://tvsen6.aynaott.com/cdgr3tw6WoG7JyRnLbi0/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739962961772.png" group-title="Bangladesh",ATN News
 http://103.165.93.31:8095/atnNews/tracks-v1a1/mono.m3u8
-
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png" group-title="Bangladesh",Channel 24 HD
-
+https://stream.ottplus.bd/live/channel_24_abr/index.m3u8
 
 #EXTINF:-1 tvg-id="JagoNews24" tvg-name="Jago News 24" group-title="Bangladesh",Jago News 24
 https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8
