@@ -19,8 +19,8 @@ http://103.165.93.31:8095/jamunaTv/tracks-v1a1/mono.m3u8
 https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/tracks-v1a1/mono.ts.m3u8?e=1782665441
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png" group-title="Bangladesh",Independent TV
+https://stream.ottplus.bd/live/independent_tv_abr/live/independent_tv_720/chunks.m3u8
 
-https://cors-proxy.niloy2work.workers.dev/?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1704%2Foutput%2F1704-audio_113342_eng%3D113200-video%3D1692000.m3u8&headers=eyJlZGdlLXBvbGljeSI6ImV5SlRkR0YwWlcxbGJuUWlPbHQ3SWxKbGMyOTFjbU5sSWpvaWFIUjBjSE02THk5dmQzSmpiM1pqY25CNUxtZHdZMlJ1TG01bGRDOWljR3N0ZEhZdk1UY3dOQzl2ZFhSd2RYUXZLaUlzSWtOdmJtUnBkR2x2YmlJNmV5SkVZWFJsVEdWemMxUm9ZVzRpT25zaVJXUm5aVlJwYldVaU9qRTNPRGN6TWpnd05ESjlmWDFkZlEiLCJlZGdlLXNpZ25hdHVyZSI6IldGMVdjSWxOYVNYRHhRZDN%2BVmN3UkJyM2kzSm91TmdOSUpyMmlHVXFlRGcifQ%3D%3D
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/o3v235oBcqxnFHJBkAdC/posters/159af631-796d-4342-a2a7-c272f32bcd32.png" group-title="Bangladesh",Ekhon TV
 https://stream.ottplus.live/live/ekhon_tv_abr/live/ekhon_tv_hd_720/chunks.m3u8
 
