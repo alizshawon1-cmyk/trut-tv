@@ -228,8 +228,6 @@ http://103.165.93.31:8095/sangeetBangla/tracks-v1a1/mono.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Cartoon",Tom & Jerry TV
 https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Cartoon",network
-http://103.165.93.31:8095/cartoonNetwork/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Cartoon",Doraemon TV
 https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 
@@ -237,10 +235,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Documentary",Discover Pakistan
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/discoverpakistan.stream/playlist.m3u8
-#EXTINF:-1,Stream 1
-http://103.165.93.31:8095/discovery/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Stream 2
-http://202.70.146.135:8000/play/a05z/index.m3u8
 #EXTINF:-1,Animal Planet HD
 https://stream.ottplus.bd/live/animal_planet_hd_abr/live/animal_planet_hd/chunks.m3u8
 
@@ -258,39 +252,29 @@ https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 
 #EXTINF:-1,FIFA Plus English 1
 https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
-
-
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/W1z5BGPZ/20240823_024712.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",A Sports HD
 https://playztv-apps.pages.dev/asports/index.m3u8
-
 #EXTINF:-1, T Sports HD
 https://tvsen3.aynaott.com/Sports1/mono.m3u8
 #EXTINF:-1,Sky Cricket
-http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9258/index.m3u8
+https://1nyaler.streamhostingcdn.top/stream/10/index.m3u8
 #EXTINF:-1,Sky Football
 http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9289/index.m3u8
 #EXTINF:-1,Star Sports 1
 http://41.205.93.154/STARSPORTS1/index.m3u8
 #EXTINF:-1,Ster Sport 2 HD
 http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-#EXTINF:-1,Star Sports  slect hd1
-http://202.70.146.135:8000/play/a03e/index.m3u8
-
-#EXTINF:-1, PTV Sports
-https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8
-
+#EXTINF:-1, Star Sports  slect hd2
+https://s3.itcnbd.live/channel/ea25a516d781cb1c.m3u8
 #EXTINF:-1, Sony Sports 1 HD
 https://s2.itcnbd.live/server-2/stream/sony_sports_1_hd.m3u8
-
 #EXTINF:-1, Sony Sports 2 HD
 https://s2.itcnbd.live/server-2/stream/sony_sports_2_hd.m3u8
 
+#EXTINF:-1, PTV Sports
+https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8
 #EXTINF:-1, Ten Cricket HD
 https://s2.itcnbd.live/server-2/stream/ten_cricket.m3u8
-
-#EXTINF:-1, Star Sports  slect hd2
-https://s3.itcnbd.live/channel/ea25a516d781cb1c.m3u8
-
 #EXTINF:-1 tvg-name="Willow HD" group-title="Cricket",Willow HD
 https://tvsen5.aynaott.com/willowhd/index.m3u8
 
@@ -298,6 +282,5 @@ https://tvsen5.aynaott.com/willowhd/index.m3u8
 https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/bfc6a36e-c250-4afe-b6c9-2bc57855bb7d/4.m3u8
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/10-by-xfireflix.png" group-title="Sports",Ten Sports
-https://cdn10.zohanayaan.com:1686/hls/tenspk.m3u8?md5=8W6DGv8AcsxgN26QGNeDaQ&expires=1787070018
-#EXTVLCOPT:http-referrer=https://executeandship.com/
-#EXTVLCOPT:http-origin=https://executeandship.com
+https://cdn10.zohanayaan.com:1686/hls/tenspk.m3u8
+
