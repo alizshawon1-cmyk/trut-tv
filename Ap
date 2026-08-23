@@ -302,6 +302,9 @@ https://aboxbdix.aboxbdix-iptv.workers.dev/live/Sony-Ten-1/70631f773d7f68798a2ad
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 2
 https://aboxbdix.aboxbdix-iptv.workers.dev/live/Sony-Ten-2/0bbc0ce2337e9870125a8b3102869ae4/1787486588/0.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 4
+https://go.skym3u.top/live/42b13/3b1f0d3d095a7073746c7d5c59475a6d764f5d525a59566f02011d651c25206060251010100c6742081c103a3a4f01521b5b.m3u8?t=9598&s=0b5&id=gynb.m3u 
+
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/VkK3Mszq/20240823_024219.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 5
 https://aboxbdix.aboxbdix-iptv.workers.dev/live/Sony-Ten-5/15693c4307b898ef58452c28b1367b7f/1787486629/0.m3u8
 
