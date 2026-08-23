@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png" group-title="Sports",T Sports
-https://xtreamcode.allinonereborn.workers.dev/stream/8423f929/1087.m3u8
+https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png" group-title="Bangladesh",BTV
 https://akash.sm-monirul.top/btv.m3u8
