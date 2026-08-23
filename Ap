@@ -195,6 +195,10 @@ http://103.175.73.12:8080/live/697/master.m3u8
 http://202.70.146.135:8000/play/a009/index.m3u8
 #EXTINF:-1,Stream 10
 http://66.102.126.10:8000/play/a076/index.m3u8
+#EXTINF:-1 tvg-name="Sheemaroo Bollywood" group-title="Hindi Movies",Sheemaroo Bollywood
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
+#EXTINF:-1 tvg-name="South Movies" group-title="Hindi | 24/7",South Movies
+https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Colors HD" group-title="General",Colors HD
 http://66.102.126.10:8000/play/a014/index.m3u8
@@ -228,12 +232,14 @@ https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/pdddb1bs/20250529_120025.png" group-title="𝐌𝐮𝐬𝐢𝐜",Sangeet Bangla
 https://cdn-4.pishow.tv/live/1143/master.m3u8 
 
-#EXTINF:-1 tvg-logo="" group-title="Cartoon",Motu Patlu TV
+#EXTINF:-1 tvg-name="Motu Patlu" group-title="CARTOON Drama",Motu Patlu
 https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Cartoon",Tom & Jerry TV
+#EXTINF:-1 tvg-name="Tom & Jerry TV" group-title="CARTOON Drama",Tom & Jerry TV
 https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Cartoon",Doraemon TV
+#EXTINF:-1 tvg-name="Doraemon TV" group-title="CARTOON Drama",Doraemon TV
 https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="Mr Bean Animated" group-title="CARTOON Drama",Mr Bean Animated
+https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="Documentary",CGTN Docu
 https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8
@@ -258,25 +264,33 @@ https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 
 #EXTINF:-1,FIFA Plus English 1
 https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/W1z5BGPZ/20240823_024712.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",A Sports HD
 https://playztv-apps.pages.dev/asports/index.m3u8
 #EXTINF:-1, T Sports HD
 https://tvsen3.aynaott.com/Sports1/mono.m3u8
-#EXTINF:-1,Sky Cricket
+
+#EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png" group-title="Sports",Sky Sports Cricket
 https://1nyaler.streamhostingcdn.top/stream/10/index.m3u8
-#EXTINF:-1,Sky Football
+
+#EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/44-by-xfireflix.png" group-title="Sports",Sky Sports Football
 http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9289/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/DzDHjCJm/20240823_024249.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Star Sports 1
 https://xtreamcode.allinonereborn.workers.dev/stream/8423f929/1084.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/zBgM9nK7/20240823_024306.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Star Sports 2
 https://xtreamcode.allinonereborn.workers.dev/stream/8423f929/1085.m3u8
+
 #EXTINF:-1, Star Sports hd3
 https://xtreamcode.allinonereborn.workers.dev/stream/8423f929/1086.m3u8 
+
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/ZnzgZCLS/20240823_024321.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Star Sports SL 1
 https://xtreamcode.allinonereborn.workers.dev/stream/8423f929/1082.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/rmczbb8g/20240825_060019.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Star Sports SL 2
 https://xtreamcode.allinonereborn.workers.dev/stream/8423f929/1083.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/65fsWLS1/20240823_024136.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 1
 https://s2.itcnbd.live/server-2/stream/sony_sports_1_hd.m3u8
 
@@ -285,9 +299,11 @@ https://s2.itcnbd.live/server-2/stream/sony_sports_2_hd.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/VkK3Mszq/20240823_024219.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 3
 https://xtreamcode.allinonereborn.workers.dev/stream/8423f929/1081.m3u8
-#EXTINF:-1, PTV Sports
+
+#EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/20-by-xfireflix.png" group-title="Sports",PTV Sports
 https://xtreamcode.allinonereborn.workers.dev/stream/8423f929/1124.m3u8 
-#EXTINF:-1, Ten Cricket HD
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/0yzwt46Q/20241126-220214.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Ten Cricket 
 https://s2.itcnbd.live/server-2/stream/ten_cricket.m3u8
 
 #EXTINF:-1 group-title="𝐒𝐩𝐨𝐫𝐭𝐬" tvg-logo="https://i.postimg.cc/HntSg3xw/20240823_024624.png",Willow Sports
