@@ -181,7 +181,8 @@ https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/1080p/in
 https://stream.ottplus.bd/live/and_picture_hd_abr/live/and_picture_hd_720/chunks.m3u8
 
 #EXTINF:-1 group-title="𝐈𝐧𝐝𝐢𝐚𝐧 𝐇𝐢𝐧𝐝𝐢" tvg-logo="https://i.postimg.cc/6pCXvxyz/20240823_022553.png",Star Gold HD 
-http://66.102.126.10:8000/play/a00f/index.m3u8 
+https://s3.itcnbd.live/channel/f5dd87a5c3b03131.m3u8
+
 #EXTINF:-1,Stream 2
 http://66.102.126.10:8000/play/a00g/index.m3u8
 
