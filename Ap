@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png" group-title="Sports",T Sports
-https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Stream 1
+https://tvsen3.aynaott.com/Sports1/mono.m3u8
+#EXTINF:-1,vedio chnnel
 https://live20.bozztv.com/giatvplayout7/giatv-209627/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png" group-title="Bangladesh",BTV
@@ -136,7 +136,7 @@ https://aboxbdix.aboxbdix-iptv.workers.dev/live/jalsha-movies/0eba28898fee809dee
 #EXTINF:-1 group-title="𝐈𝐧𝐝𝐢𝐚𝐧 𝐁𝐚𝐧𝐠𝐥𝐚" tvg-logo="https://i.postimg.cc/PJbWDxnT/20240822-231631.png",Colors Bangla Cinema
 https://xtreamcode.allinonereborn.workers.dev/stream/8423f929/1089.m3u8 
 
-#EXTINF:-1,Colors HD
+#EXTINF:-1,Zee Bangla chneme
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8
 
 #EXTINF:-1,Amar Digital
@@ -282,8 +282,6 @@ https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/W1z5BGPZ/20240823_024712.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",A Sports HD
 https://playztv-apps.pages.dev/asports/index.m3u8
 
-#EXTINF:-1, T Sports HD
-https://tvsen3.aynaott.com/Sports1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png" group-title="Sports",Sky Sports Cricket
 https://1nyaler.streamhostingcdn.top/stream/10/index.m3u8
