@@ -325,6 +325,9 @@ https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/20-by-xfireflix.png" group-title="Sports",PTV Sports
 https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8
+#EXTM3U
+#EXTINF:-1, Live Channel
+http://seatv.xyz:80/live/8340A972D5C3015/6QHh8Lgoqt/1388028.ts
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/0yzwt46Q/20241126-220214.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Ten Cricket 
 https://stream.ottplus.bd/live/ten_cricket_hd_abr/live/ten_cricket_hd_720/chunks.m3u8
 #EXTINF:-1 group-title="𝐒𝐩𝐨𝐫𝐭𝐬" tvg-logo="https://i.postimg.cc/HntSg3xw/20240823_024624.png",Willow Sports
