@@ -5,10 +5,6 @@ https://tvsen3.aynaott.com/Sports1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png" group-title="Bangladesh",BTV
 https://my-proxy-worker.alizshawon1.workers.dev
 
-
-#EXTINF:-1 tvg-id="" tvg-name="Independent TV" tvg-logo="https://i.imgur.com/8Qz4Y8S.png" group-title="Bangladesh", Independent Television
-https://www.youtube.com/watch?v=mp7J62VtY0D
-
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Zqgx8hm1/20260430-184013.png" group-title="𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡",Channel 1
 https://stream.ottplus.live/live/channel_1_hd_abr/live/channel_1_hd_720/chunks.m3u8?
 
@@ -188,9 +184,9 @@ https://stream.ottplus.bd/live/zee_bollywood_abr/index.m3u8
 http://seatv.xyz:80/live/8340A972D5C3015/6QHh8Lgoqt/72176.ts
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/13nLvxQx/20250630_050504.png" group-title="𝐈𝐧𝐝𝐢𝐚𝐧 𝐇𝐢𝐧𝐝𝐢",B4U Movies
-https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/1080p/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Movies",B4U kroge
 https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Movies",B4U kadak
+https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/1080p/index.m3u8
 
 #EXTINF:-1 tvg-id="TheMovieClub.in@HD" group-title="Movie Club",The Movie Club
 https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8
