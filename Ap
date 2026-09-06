@@ -180,6 +180,8 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 https://stream.ottplus.bd/live/zee_cinema_hd_abr/live/zee_cinema_hd_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Classic.jpeg" group-title="Movies",Zee Bollywood
 https://stream.ottplus.bd/live/zee_bollywood_abr/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Colors HD" group-title="General",Colors cinepelex 
+http://seatv.xyz:80/live/8340A972D5C3015/6QHh8Lgoqt/72176.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Colors HD" group-title="General",Colors cinepelex 
 http://66.102.126.10:8000/play/a014/index.m3u8
@@ -230,7 +232,7 @@ http://103.175.73.12:8080/live/174/master.m3u8
 http://103.175.73.12:8080/live/697/master.m3u8
 #EXTINF:-1,Stream 9
 http://202.70.146.135:8000/play/a009/index.m3u8
-#EXTINF:-1,Stream 10
+#EXTINF:-1,Stream 10 cinepelex
 http://66.102.126.10:8000/play/a076/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movies",Movie Stream
 https://cdn-2.pishow.tv/live/227/master.m3u8
