@@ -3,8 +3,7 @@
 https://tvsen3.aynaott.com/Sports1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png" group-title="Bangladesh",BTV
-https://my-proxy-worker.alizshawon1.workers.dev/proxy?url=http://1204786.01744.aquafina.live/live/YqXTywueEV/damp2purchase/423.ts?token=ShJcU0BbQQNHX1IPBFFUWFpTBVJRAF1RBgcDVFwAUQIBVgBTUFdaDVQbGBpEF0dcWF1vWQIXXlUDUU4VEBdWQG5ZUBAJEVILVQ0DAAFBGRtNWV1VRA9VVglaVQZUVQQLHRJEW1cRWRtUCQYNAVEEGxUSVUgSUBYPUA49UwASWlFUEg5cRl8PFUdWWmdTBlhYV1QSCkQFRk0TCxFHR14Rc3V+FGZWXwZaClQWFBUBXE1LUURVRA9GWQFVWxVJRlBdRF5AQEoRWRsnfRYUFQZNTVxeQ1kJW0ZbExYRFUlGWkFuQlFBR0EGWAhcRhoNQQUbFRJdUR5qBw5fDAdUEQ1cXEISDhACEU8bCFZaUUMMR2ZJWVQSXBdSUQhQQBtHEUZbVRIOEAtQBQkAAAcLBQYNCgEEB1YDVFRZBFtUUgQFUAIGBgUEEU4=
-
+https://btv.hridoytv-channel.workers.dev/btv.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Zqgx8hm1/20260430-184013.png" group-title="𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡",Channel 1
 https://stream.ottplus.live/live/channel_1_hd_abr/live/channel_1_hd_720/chunks.m3u8?
 
@@ -18,7 +17,7 @@ https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8
 https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png" group-title="Bangladesh",Independent TV
-https://stream.ottplus.bd/live/independent_tv_abr/live/independent_tv_720/chunks.m3u8
+https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/live/independent_tv_720/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/o3v235oBcqxnFHJBkAdC/posters/159af631-796d-4342-a2a7-c272f32bcd32.png" group-title="Bangladesh",Ekhon TV
 https://stream.ottplus.live/live/ekhon_tv_abr/live/ekhon_tv_hd_720/chunks.m3u8
@@ -217,8 +216,8 @@ https://moviethls.wns.live/hls/stream.m3u8
 
 #EXTINF:-1 group-title="𝐈𝐧𝐝𝐢𝐚𝐧 𝐇𝐢𝐧𝐝𝐢" tvg-logo="https://i.postimg.cc/bYKYDTmy/20240823_023330.png",Star Gold Selected 
 http://66.102.126.10:8000/play/a01s/index.m3u8
-
-
+#EXTINF:-1 group-title="𝐈𝐧𝐝𝐢𝐚𝐧 𝐇𝐢𝐧𝐝𝐢" Star Gold 
+http://107.167.16.138/stargold2/index.m3u8?token=test
 
 #EXTINF:-1 tvg-logo="" group-title="Music",B4U Music
 https://amg00877-b4unew-amg00877c3-xiaomi-in-5474.playouts.now.amagi.tv/1080p/index.m3u8
