@@ -2,6 +2,63 @@
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png" group-title="Sports",T Sports
 https://tvsen3.aynaott.com/Sports1/mono.m3u8
 
+
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", Jamuna TV
+https://www.youtube.com/@JamunaTVbd/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", Jamuna TV Plus
+https://www.youtube.com/@jamunatvplus/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", Somoy TV
+https://www.youtube.com/@somoynews360/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", Somoy TV Bulletin
+https://www.youtube.com/@SOMOYTVBulletin/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", Ekattor TV
+https://www.youtube.com/@EkattorTelevision/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", Ekhon TV
+https://www.youtube.com/@ekhontv/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", ATN Bangla
+https://www.youtube.com/@atnbangla-digital/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", ATN News
+https://www.youtube.com/@atnnewsltd/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", Channel One News
+https://www.youtube.com/@Channelonenewsbd/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", Independent TV
+https://www.youtube.com/@IndependentTelevision/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", RTV
+https://www.youtube.com/@RtvLiveBD/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", Star News
+https://www.youtube.com/@DigitalStarNews/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", News24
+https://www.youtube.com/@news24livetv/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", DBC News
+https://www.youtube.com/@dbcnewstv/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", GTV
+https://www.youtube.com/@GTVNewsupdate/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", Channel i
+https://www.youtube.com/@ChanneliLive24/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live", Channel 24
+https://www.youtube.com/@channel24digital/live
+
+#EXTINF:-1 tvg-logo="" group-title="YouTube Live",BanglaVision
+https://www.youtube.com/@BanglaVisionNEWS/live
+
+
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png" group-title="Bangladesh",BTV
 https://btv.hridoytv-channel.workers.dev/btv.m3u8
 
