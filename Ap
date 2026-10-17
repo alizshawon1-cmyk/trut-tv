@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png",T Sports
-http://103.151.60.162:2122/play/a030/index.m3u8
+https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8  
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png",BTV
 https://s3.itcnbd.live/server-4/stream/aHR0cDovLzE3Mi4xOS4xNy4yMzA6ODA5MC9obHMvQlRWTmF0aW9uYWxIRC5tM3U4.m3u8
@@ -129,10 +129,10 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 https://tvsen6.aynaott.com/channel52/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/0ykfppN3/20240822-231405.png",Star Jalsha HD
-https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/5tjSrbLS/20240822-231445.png",Zee Bangla HD
-https://yupptvcatchupire.yuppcdn.net/preview/zeebangla/2500.m3u8
+https://d1rc86nwwc9fag.cloudfront.net/260723/smil:zeebangla.smil/chunklist_b896000.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/3w6F5VZ5/20240822-231514.png",Colors Bangla HD
 https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8
@@ -245,7 +245,6 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionholly
 #EXTINF:-1 tvg-logo="",Movies HLS
 https://moviethls.wns.live/hls/stream.m3u8
 
-
 #EXTINF:-1 tvg-id="TheMovieClub.in@HD" group-title="Movie Club",The Movie Club
 https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8
 
@@ -266,6 +265,24 @@ https://stream.ottlive.co.in/utvtamil/index.m3u8
 
 #EXTINF:-1,Stream bhojpur
 https://tv.chitrabani24.com/proxy.php?url=https%3A%2F%2Flive-bhojpuri.akamaized.net%2Fliveabr%2Fpub-iobhojpuqbu6yj%2Flive_720p%2Fchunks.m3u8
+
+#EXTINF:-1 group-title="hindi",HGTV Movie
+https://tvsen3.aynaott.com/Ge23xfY5/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Star Movies" tvg-logo="" group-title="Hindi", Star Movies
+http://103.185.24.134:3001/Star-Movies/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Star Movies HD" tvg-logo="" group-title="Hindi", Star Movies HD
+http://103.185.24.134:3001/STAR-MOVIES-SEL-HD/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7c/HBO_Movies_2025.svg" group-title="Hindi", HBO Movies
+https://tvsen7.aynaott.com/hbo/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7c/HBO_Movies_2025.svg" group-title="Hindi", HBO Movies 2
+https://tvsen3.aynaott.com/Ah3tLAfA/index.m3u8
+
+#EXTINF:-1 tvg-name="SET Bangla" group-title="hindi",ster brto
+https://d1taaads3ztvmu.cloudfront.net/120723/smil:lifeokuk.smil/chunklist_b2628000.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="Movies",Movies HLS
 https://moviethls.wns.live/hls/stream.m3u8
@@ -312,6 +329,8 @@ https://stream.ottplus.live/live/discovery_kids_abr/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/C1s5Hf5P/20240823_021444.png" group-title="𝐊𝐢𝐝𝐬",Pogo
 https://stream.ottplus.live/live/pogo_sd_abr/index.m3u8
 
+#EXTINF:-1 group-title="cartton", cartton
+https://tvsen3.aynaott.com/u3NjUrny/index.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="Documentary",CGTN Docu
 https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8
@@ -455,11 +474,8 @@ http://23.237.104.106:8080/DAZN_4/index.m3u8#skym3u.dev
 #EXTINF:-1, Special Cartoon
 http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/10002/index.m3u8
 
-
-
-
-
-
+#EXTINF:-1 tvg-name="Euro Sport" group-title="Sports",Euro Sport
+https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/live/euro_sports_hd/chunks.m3u8
 
 
 
