@@ -408,7 +408,7 @@ http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/311558.ts
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/441hHtgZ/20250120_193746.png",Bein Sports 1
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/56655.ts
+https://tvsen6.aynaott.com/beinsports/index.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/FzGdttZ1/20250120_193818.png",Bein Sports 2
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/56654.ts
@@ -448,10 +448,10 @@ https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/manifest/611d79b11b7
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1090635.ts
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",Star Sports Hindi
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1090636.ts
+https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/zBgM9nK7/20240823_024306.png",Star Sports HD2
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1090637.ts
+https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://fcnchbd.xyz/iptv/logo/spsss1.png",STAR SPORTS SEL 1HD
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1090639.ts
@@ -460,34 +460,37 @@ http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1090639.ts
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1090640.ts
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/20-by-xfireflix.png",PTV Sports
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1274771.ts
+http://103.135.253.32:8080/PTV-SPORTS/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/10-by-xfireflix.png",TEN SPORTS
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1292016.ts
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/65fsWLS1/20240823_024136.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 1
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1090641.ts
+https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 2
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1090642.ts
+https://drk6xq0vhn.gpcdn.net/live/ten_2_hd_720/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 4
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/510281.ts
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/W4tx7R4Q/20240823_024232.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 5
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1090634.ts
+https://drk6xq0vhn.gpcdn.net/live/ten_5_hd_720/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/W1z5BGPZ/20240823_024712.png",A Sports HD
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1292018.ts
+https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png",Sky sports Cricket
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/980432.ts
+http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9258/index.m3u8 
+
+#EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png",Sky sports footbll
+http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9289/index.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",Cricbuzz Cricket HD
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1341119.ts
+https://tvsen5.aynaott.com/willowhd/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/HntSg3xw/20240823_024624.png",Willow Cricket sports 
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1090644.ts
+https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",Fox Sports Cricket
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1405863.ts
