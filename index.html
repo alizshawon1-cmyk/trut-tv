@@ -4,155 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHAWON TV</title>
-    <style>
-        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; }
-        video { width: 100vw; height: 100vh; object-fit: contain; }
-        
-        /* ডিশ লাইনের মতো স্ক্রিনের কোণায় চ্যানেল নম্বর ও নাম দেখানোর স্টাইল */
-        #osd {
-            position: fixed; 
-            top: 40px; 
-            right: 40px;
-            background: rgba(0, 0, 0, 0.85); 
-            color: #00ffcc;
-            padding: 15px 30px; 
-            font-size: 28px; 
-            font-weight: bold;
-            font-family: sans-serif; 
-            border-left: 5px solid #00ffcc;
-            border-radius: 8px; 
-            display: none; 
-            z-index: 9999;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-        }
-    </style>
-    <!-- HLS.js Library -->
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <style>
+        body { background-color: #000; color: #fff; margin: 0; font-family: sans-serif; overflow: hidden; }
+        #video-container { width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center; }
+        video { width: 100%; height: 100%; background: #000; }
+        #channel-info { position: absolute; top: 20px; left: 20px; background: rgba(0,0,0,0.7); padding: 10px 20px; font-size: 24px; border-radius: 5px; z-index: 10; }
+    </style>
 </head>
 <body>
-
-    <div id="osd">CH 1</div>
-    <video id="video" autoplay controls></video>
+    <div id="channel-info">Loading Channels...</div>
+    <div id="video-container">
+        <video id="video" autoplay controls></video>
+    </div>
 
     <script>
+        const m3uUrl = "https://raw.githubusercontent.com/alizshawon1-cmyk/trut-tv/refs/heads/main/Ap";
         let channels = [];
         let currentIndex = 0;
-        let typedNum = "";
-        let numTimer = null;
         const video = document.getElementById('video');
-        const osd = document.getElementById('osd');
-        let hls = new Hls();
+        const info = document.getElementById('channel-info');
+        let hls;
 
-        // সঠিক লিঙ্কটি এখানে বসানো হলো
-        const m3uUrl = "https://raw.githubusercontent.com/alizshawon1-cmyk/trut-tv/refs/heads/main/Ap"; 
-
-        // স্বয়ংক্রিয়ভাবে M3U ফাইল ফেচ করে চ্যানেল লিস্ট তৈরি করা
-        async function loadChannels() {
+        async function loadPlaylist() {
             try {
-                let response = await fetch(m3uUrl);
-                let data = await response.text();
+                const response = await fetch(m3uUrl);
+                const data = await response.text();
                 parseM3U(data);
-            } catch (error) {
-                console.error("M3U Load Error:", error);
-                showOSD("Failed to load channels");
+            } catch (e) {
+                info.innerText = "Failed to load playlist";
             }
         }
 
-        // M3U টেক্সট পার্স করে চ্যানেলের অ্যারে বানানো
         function parseM3U(data) {
-            let lines = data.split('\n');
-            let currentName = "Channel";
-
+            const lines = data.split('\n');
+            let currentChannel = {};
             for (let i = 0; i < lines.length; i++) {
                 let line = lines[i].trim();
-                if (line.startsWith('#EXTINF:')) {
-                    let parts = line.split(',');
-                    if (parts.length > 1) {
-                        currentName = parts[parts.length - 1].trim();
-                    }
+                if (line.startsWith('#EXTINF')) {
+                    let nameMatch = line.split(',');
+                    currentChannel.name = nameMatch[1] ? nameMatch[1].trim() : "Channel";
                 } else if (line && !line.startsWith('#')) {
-                    channels.push({
-                        number: channels.length + 1,
-                        name: currentName,
-                        url: line
-                    });
-                    currentName = "Channel";
+                    currentChannel.url = line;
+                    channels.push(currentChannel);
+                    currentChannel = {};
                 }
             }
-
             if (channels.length > 0) {
                 playChannel(0);
-                loadChannelsListOnStart(); // লোড সম্পন্ন হওয়ার নোটিফিকেশন
-            } else {
-                showOSD("No Channels Found");
             }
         }
 
-        function loadChannelsListOnStart() {
-            showOSD(`${channels.length} Channels Loaded`);
-        }
-
-        // চ্যানেল প্লে করার ফাংশন
         function playChannel(index) {
-            if (index < 0 || index >= channels.length) return;
+            if (index < 0) index = channels.length - 1;
+            if (index >= channels.length) index = 0;
             currentIndex = index;
+            
             let ch = channels[currentIndex];
-
-            showOSD(`CH ${ch.number} - ${ch.name}`);
-
+            info.innerText = `${currentIndex + 1}. ${ch.name}`;
+            
             if (Hls.isSupported()) {
-                hls.destroy();
+                if (hls) hls.destroy();
                 hls = new Hls();
                 hls.loadSource(ch.url);
                 hls.attachMedia(video);
-                hls.on(Hls.Events.MANIFEST_PARSED, () => video.play());
+                hls.on(Hls.Events.MANIFEST_PARSED, () => { video.play(); });
             } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
                 video.src = ch.url;
-                video.play();
+                video.addEventListener('loadedmetadata', () => { video.play(); });
             }
         }
 
-        // OSD স্ক্রিন মেসেজ দেখানো
-        function showOSD(text) {
-            osd.innerText = text;
-            osd.style.display = 'block';
-            clearTimeout(window.osdTimer);
-            window.osdTimer = setTimeout(() => { 
-                osd.style.display = 'none'; 
-            }, 3000);
-        }
-
-        // টিভি রিমোটের আপ/ডাউন এবং নাম্বার বাটন হ্যান্ডলার
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'ArrowUp' || e.keyCode === 38) {
-                currentIndex = (currentIndex - 1 + channels.length) % channels.length;
-                playChannel(currentIndex);
+        // TV Remote Control Support (Up/Down keys)
+        window.addEventListener('keydown', (e) => {
+            if (e.keyCode === 38 || e.keyCode === 33) { // Up / Channel Up
+                playChannel(currentIndex - 1);
                 e.preventDefault();
-            } else if (e.key === 'ArrowDown' || e.keyCode === 40) {
-                currentIndex = (currentIndex + 1) % channels.length;
-                playChannel(currentIndex);
-                e.preventDefault();
-            } else if (e.key >= '0' && e.key <= '9') {
-                typedNum += e.key;
-                showOSD(`CH ${typedNum}`);
-
-                clearTimeout(numTimer);
-                numTimer = setTimeout(() => {
-                    let targetNum = parseInt(typedNum);
-                    let targetIndex = channels.findIndex(c => c.number === targetNum);
-                    if (targetIndex !== -1) {
-                        playChannel(targetIndex);
-                    } else {
-                        showOSD("Channel Not Found");
-                    }
-                    typedNum = "";
-                }, 1200);
+            } else if (e.keyCode === 40 || e.keyCode === 34) { // Down / Channel Down
+                playChannel(currentIndex + 1);
                 e.preventDefault();
             }
         });
 
-        // প্রোগ্রাম চালু হওয়ার সাথে সাথেই চ্যানেল লোড শুরু হবে
-        loadChannels();
+        loadPlaylist();
     </script>
 </body>
 </html>
