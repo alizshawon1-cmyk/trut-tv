@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <title>SHAWON TV</title>
+    <style>
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; }
+        video { width: 100vw; height: 100vh; object-fit: contain; }
+        /* ডিশ লাইনের মতো স্ক্রিনের কোণায় চ্যানেল নম্বর দেখানোর স্টাইল */
+        #osd {
+            position: fixed; top: 40px; right: 40px;
+            background: rgba(0, 0, 0, 0.85); color: #00ffcc;
+            padding: 15px 30px; font-size: 28px; font-weight: bold;
+            font-family: sans-serif; border-left: 5px solid #00ffcc;
+            border-radius: 8px; display: none; z-index: 9999;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+
+    <div id="osd">CH 1</div>
+    <video id="video" autoplay controls></video>
+
+    <script>
+        // আপনার চ্যানেলের তালিকা এবং স্ট্রিম লিংক এখানে থাকবে
+        const channels = [
+            { number: 1, name: "T Sports", url: "আপনার_প্রথম_চ্যানেলের_m3u8_লিংক" },
+            { number: 2, name: "Channel 2", url: "আপনার_দ্বিতীয়_চ্যানেলের_m3u8_লিংক" }
+        ];
+
+        let currentIndex = 0;
+        let typedNum = "";
+        let numTimer = null;
+        const video = document.getElementById('video');
+        const osd = document.getElementById('osd');
+        let hls = new Hls();
+
+        function playChannel(index) {
+            if (index < 0 || index >= channels.length) return;
+            currentIndex = index;
+            let ch = channels[currentIndex];
+
+            showOSD(`CH ${ch.number} - ${ch.name}`);
+
+            if (Hls.isSupported()) {
+                hls.destroy();
+                hls = new Hls();
+                hls.loadSource(ch.url);
+                hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED, () => video.play());
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = ch.url;
+                video.play();
+            }
+        }
+
+        function showOSD(text) {
+            osd.innerText = text;
+            osd.style.display = 'block';
+            clearTimeout(window.osdTimer);
+            window.osdTimer = setTimeout(() => { osd.style.display = 'none'; }, 3000);
+        }
+
+        // টিভি রিমোটের আপ/ডাউন এবং নাম্বার বাটন কন্ট্রোল
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowUp' || e.keyCode === 38) {
+                currentIndex = (currentIndex - 1 + channels.length) % channels.length;
+                playChannel(currentIndex);
+                e.preventDefault();
+            } else if (e.key === 'ArrowDown' || e.keyCode === 40) {
+                currentIndex = (currentIndex + 1) % channels.length;
+                playChannel(currentIndex);
+                e.preventDefault();
+            } else if (e.key >= '0' && e.key <= '9') {
+                typedNum += e.key;
+                showOSD(`CH ${typedNum}`);
+
+                clearTimeout(numTimer);
+                numTimer = setTimeout(() => {
+                    let targetNum = parseInt(typedNum);
+                    let targetIndex = channels.findIndex(c => c.number === targetNum);
+                    if (targetIndex !== -1) {
+                        playChannel(targetIndex);
+                    } else {
+                        showOSD("Channel Not Found");
+                    }
+                    typedNum = "";
+                }, 1200);
+                e.preventDefault();
+            }
+        });
+
+        // প্রথমে ১ নম্বর চ্যানেল রান করবে
+        playChannel(0);
+    </script>
+</body>
+</html>
