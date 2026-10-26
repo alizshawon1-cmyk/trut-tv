@@ -8,7 +8,7 @@
         body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; }
         video { width: 100vw; height: 100vh; object-fit: contain; }
         
-        /* ডিশ লাইনের মতো স্ক্রিনের কোণায় চ্যানেল নম্বর ও নাম দেখানোর স্টাইল */
+        /* ডিশ লাইনের মতো স্ক্রিনের কোণায় চ্যানেল নম্বর ও নাম দেখানোর স্টাইল */
         #osd {
             position: fixed; 
             top: 40px; 
@@ -43,10 +43,10 @@
         const osd = document.getElementById('osd');
         let hls = new Hls();
 
-        // আপনার গিটহাবের সেই M3U ফাইলের Raw লিংক (যেখানে সব চ্যানেল লিস্ট আছে)
-        const m3uUrl = "const m3uUrl = "https://raw.githubusercontent.com/alizshawon1-cmyk/trut-tv/refs/heads/main/Ap"; 
+        // সঠিক লিঙ্কটি এখানে বসানো হলো
+        const m3uUrl = "https://raw.githubusercontent.com/alizshawon1-cmyk/trut-tv/refs/heads/main/Ap"; 
 
-        // স্বয়ংক্রয়ভাবে M3U ফাইল ফেচ করে চ্যানেল লিস্ট তৈরি করা
+        // স্বয়ংক্রিয়ভাবে M3U ফাইল ফেচ করে চ্যানেল লিস্ট তৈরি করা
         async function loadChannels() {
             try {
                 let response = await fetch(m3uUrl);
@@ -62,18 +62,15 @@
         function parseM3U(data) {
             let lines = data.split('\n');
             let currentName = "Channel";
-            let currentLogo = "";
 
             for (let i = 0; i < lines.length; i++) {
                 let line = lines[i].trim();
                 if (line.startsWith('#EXTINF:')) {
-                    // নাম খুঁজে বের করা
                     let parts = line.split(',');
                     if (parts.length > 1) {
                         currentName = parts[parts.length - 1].trim();
                     }
                 } else if (line && !line.startsWith('#')) {
-                    // স্ট্রিম লিংক পাওয়া গেলে চ্যানেলের লিস্টে যোগ করা
                     channels.push({
                         number: channels.length + 1,
                         name: currentName,
@@ -85,9 +82,14 @@
 
             if (channels.length > 0) {
                 playChannel(0);
+                loadChannelsListOnStart(); // লোড সম্পন্ন হওয়ার নোটিফিকেশন
             } else {
                 showOSD("No Channels Found");
             }
+        }
+
+        function loadChannelsListOnStart() {
+            showOSD(`${channels.length} Channels Loaded`);
         }
 
         // চ্যানেল প্লে করার ফাংশন
@@ -148,6 +150,9 @@
                 e.preventDefault();
             }
         });
+
+        // প্রোগ্রাম চালু হওয়ার সাথে সাথেই চ্যানেল লোড শুরু হবে
+        loadChannels();
     </script>
 </body>
 </html>
