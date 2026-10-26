@@ -2,19 +2,31 @@
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHAWON TV</title>
     <style>
         body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; }
         video { width: 100vw; height: 100vh; object-fit: contain; }
-        /* ডিশ লাইনের মতো স্ক্রিনের কোণায় চ্যানেল নম্বর দেখানোর স্টাইল */
+        
+        /* ডিশ লাইনের মতো স্ক্রিনের কোণায় চ্যানেল নম্বর ও নাম দেখানোর স্টাইল */
         #osd {
-            position: fixed; top: 40px; right: 40px;
-            background: rgba(0, 0, 0, 0.85); color: #00ffcc;
-            padding: 15px 30px; font-size: 28px; font-weight: bold;
-            font-family: sans-serif; border-left: 5px solid #00ffcc;
-            border-radius: 8px; display: none; z-index: 9999;
+            position: fixed; 
+            top: 40px; 
+            right: 40px;
+            background: rgba(0, 0, 0, 0.85); 
+            color: #00ffcc;
+            padding: 15px 30px; 
+            font-size: 28px; 
+            font-weight: bold;
+            font-family: sans-serif; 
+            border-left: 5px solid #00ffcc;
+            border-radius: 8px; 
+            display: none; 
+            z-index: 9999;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
         }
     </style>
+    <!-- HLS.js Library -->
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
 <body>
@@ -23,12 +35,7 @@
     <video id="video" autoplay controls></video>
 
     <script>
-        // আপনার চ্যানেলের তালিকা এবং স্ট্রিম লিংক এখানে থাকবে
-        const channels = [
-            { number: 1, name: "T Sports", url: "আপনার_প্রথম_চ্যানেলের_m3u8_লিংক" },
-            { number: 2, name: "Channel 2", url: "আপনার_দ্বিতীয়_চ্যানেলের_m3u8_লিংক" }
-        ];
-
+        let channels = [];
         let currentIndex = 0;
         let typedNum = "";
         let numTimer = null;
@@ -36,6 +43,54 @@
         const osd = document.getElementById('osd');
         let hls = new Hls();
 
+        // আপনার গিটহাবের সেই M3U ফাইলের Raw লিংক (যেখানে সব চ্যানেল লিস্ট আছে)
+        const m3uUrl = "https://raw.githubusercontent.com/alizshawon1-cmyk/trut-tv/main/Ap"; 
+
+        // স্বয়ংক্রয়ভাবে M3U ফাইল ফেচ করে চ্যানেল লিস্ট তৈরি করা
+        async function loadChannels() {
+            try {
+                let response = await fetch(m3uUrl);
+                let data = await response.text();
+                parseM3U(data);
+            } catch (error) {
+                console.error("M3U Load Error:", error);
+                showOSD("Failed to load channels");
+            }
+        }
+
+        // M3U টেক্সট পার্স করে চ্যানেলের অ্যারে বানানো
+        function parseM3U(data) {
+            let lines = data.split('\n');
+            let currentName = "Channel";
+            let currentLogo = "";
+
+            for (let i = 0; i < lines.length; i++) {
+                let line = lines[i].trim();
+                if (line.startsWith('#EXTINF:')) {
+                    // নাম খুঁজে বের করা
+                    let parts = line.split(',');
+                    if (parts.length > 1) {
+                        currentName = parts[parts.length - 1].trim();
+                    }
+                } else if (line && !line.startsWith('#')) {
+                    // স্ট্রিম লিংক পাওয়া গেলে চ্যানেলের লিস্টে যোগ করা
+                    channels.push({
+                        number: channels.length + 1,
+                        name: currentName,
+                        url: line
+                    });
+                    currentName = "Channel";
+                }
+            }
+
+            if (channels.length > 0) {
+                playChannel(0);
+            } else {
+                showOSD("No Channels Found");
+            }
+        }
+
+        // চ্যানেল প্লে করার ফাংশন
         function playChannel(index) {
             if (index < 0 || index >= channels.length) return;
             currentIndex = index;
@@ -55,14 +110,17 @@
             }
         }
 
+        // OSD স্ক্রিন মেসেজ দেখানো
         function showOSD(text) {
             osd.innerText = text;
             osd.style.display = 'block';
             clearTimeout(window.osdTimer);
-            window.osdTimer = setTimeout(() => { osd.style.display = 'none'; }, 3000);
+            window.osdTimer = setTimeout(() => { 
+                osd.style.display = 'none'; 
+            }, 3000);
         }
 
-        // টিভি রিমোটের আপ/ডাউন এবং নাম্বার বাটন কন্ট্রোল
+        // টিভি রিমোটের আপ/ডাউন এবং নাম্বার বাটন হ্যান্ডলার
         document.addEventListener('keydown', (e) => {
             if (e.key === 'ArrowUp' || e.keyCode === 38) {
                 currentIndex = (currentIndex - 1 + channels.length) % channels.length;
@@ -90,9 +148,6 @@
                 e.preventDefault();
             }
         });
-
-        // প্রথমে ১ নম্বর চ্যানেল রান করবে
-        playChannel(0);
     </script>
 </body>
 </html>
