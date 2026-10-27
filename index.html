@@ -7,26 +7,49 @@
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <style>
         body { background-color: #000; color: #fff; margin: 0; font-family: sans-serif; overflow: hidden; }
-        #video-container { width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center; }
+        #video-container { width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center; position: relative; }
         video { width: 100%; height: 100%; background: #000; outline: none; }
         
-        /* Top Right Corner Channel Badge */
+        /* Video offline ba error hole screen blur o dark korar overlay */
+        #blur-overlay {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 5;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.4s ease;
+        }
+        #blur-overlay.active { opacity: 1; pointer-events: auto; }
+        #blur-overlay h1 { font-size: 32px; color: #ef4444; margin: 0 0 10px 0; }
+        #blur-overlay p { font-size: 18px; color: #94a3b8; margin: 0; }
+
+        /* Top Right Corner Channel Badge (Boro number ebong SHAOWON text shohokare) */
         #top-badge {
             position: absolute;
             top: 25px;
             right: 35px;
             background: rgba(10, 15, 30, 0.9);
             border: 2px solid #1e3a8a;
-            padding: 12px 25px;
-            border-radius: 12px;
+            padding: 15px 30px;
+            border-radius: 14px;
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 20px;
             box-shadow: 0 4px 20px rgba(0,0,0,0.8);
             z-index: 10;
+            opacity: 0;
+            transition: opacity 0.5s ease;
         }
-        #top-ch-num { font-size: 22px; font-weight: bold; color: #3b82f6; }
-        #top-ch-name { font-size: 20px; font-weight: bold; color: #fff; }
+        #top-badge.show { opacity: 1; }
+        #top-ch-num { font-size: 32px; font-weight: bold; color: #3b82f6; letter-spacing: 1px; }
+        #top-ch-name { font-size: 22px; font-weight: bold; color: #fff; }
 
         /* Bottom Lower Third Banner */
         #bottom-banner {
@@ -45,7 +68,10 @@
             justify-content: space-between;
             box-shadow: 0 10px 30px rgba(0,0,0,0.9);
             z-index: 10;
+            opacity: 0;
+            transition: opacity 0.5s ease;
         }
+        #bottom-banner.show { opacity: 1; }
         .banner-left { display: flex; align-items: center; gap: 20px; }
         .ch-box { background: #2563eb; color: #fff; font-size: 24px; font-weight: bold; padding: 10px 20px; border-radius: 10px; }
         .ch-details h2 { margin: 0; font-size: 24px; color: #fff; }
@@ -59,28 +85,34 @@
 </head>
 <body>
 
-    <!-- Top Right Badge -->
-    <div id="top-badge">
-        <span id="top-ch-num">CH 001</span>
-        <span id="top-ch-name">Loading...</span>
-    </div>
-
     <div id="video-container">
-        <video id="video" autoplay playsinline></video>
-    </div>
-
-    <!-- Bottom Lower Third Banner -->
-    <div id="bottom-banner">
-        <div class="banner-left">
-            <div class="ch-box" id="bot-ch-num">1</div>
-            <div class="ch-details">
-                <h2 id="bot-ch-name">Channel Name</h2>
-                <p>SHAWON TV PALASHBARI • Direct IPTV Stream</p>
-            </div>
+        <!-- Video Offline ba error hole blur screen dekhabe -->
+        <div id="blur-overlay">
+            <h1 id="overlay-title">OFFLINE</h1>
+            <p>Channel is currently unavailable or loading...</p>
         </div>
-        <div class="banner-right">
-            <div id="status-indicator" class="status-badge">Offline</div>
-            <div class="quality-badge">LIVE</div>
+
+        <!-- Top Right Badge (SHAWON + Boro Channel Number) -->
+        <div id="top-badge">
+            <span id="top-ch-num">SHAWON 001</span>
+            <span id="top-ch-name">Loading...</span>
+        </div>
+
+        <video id="video" autoplay playsinline></video>
+
+        <!-- Bottom Lower Third Banner -->
+        <div id="bottom-banner">
+            <div class="banner-left">
+                <div class="ch-box" id="bot-ch-num">1</div>
+                <div class="ch-details">
+                    <h2 id="bot-ch-name">Channel Name</h2>
+                    <p>SHAWON TV PALASHBARI • Direct IPTV Stream</p>
+                </div>
+            </div>
+            <div class="banner-right">
+                <div id="status-indicator" class="status-badge">Offline</div>
+                <div class="quality-badge">LIVE</div>
+            </div>
         </div>
     </div>
 
@@ -90,12 +122,18 @@
         let currentIndex = 0;
         const video = document.getElementById('video');
         
+        const topBadge = document.getElementById('top-badge');
+        const bottomBanner = document.getElementById('bottom-banner');
+        const blurOverlay = document.getElementById('blur-overlay');
+        const overlayTitle = document.getElementById('overlay-title');
+        
         const topChNum = document.getElementById('top-ch-num');
         const topChName = document.getElementById('top-ch-name');
         const botChNum = document.getElementById('bot-ch-num');
         const botChName = document.getElementById('bot-ch-name');
         const statusIndicator = document.getElementById('status-indicator');
         let hls;
+        let bannerTimer;
 
         async function loadPlaylist() {
             try {
@@ -104,7 +142,6 @@
                 parseM3U(data);
             } catch (e) {
                 topChName.innerText = "Error Loading";
-                botChName.innerText = "Playlist Load Failed";
             }
         }
 
@@ -135,19 +172,33 @@
             if (channels.length > 0) {
                 playChannel(0);
             } else {
-                topChName.innerText = "No Channels";
-                botChName.innerText = "No Channels Found";
+                overlayTitle.innerText = "NO CHANNELS";
+                blurOverlay.classList.add('active');
             }
+        }
+
+        // Banner 4 second por auto hide korar function
+        function showBanners() {
+            topBadge.classList.add('show');
+            bottomBanner.classList.add('show');
+            
+            clearTimeout(bannerTimer);
+            bannerTimer = setTimeout(() => {
+                topBadge.classList.remove('show');
+                bottomBanner.classList.remove('show');
+            }, 4000); // 4 second por off hoye jabe
         }
 
         function setOfflineStatus() {
             statusIndicator.innerText = "Offline";
-            statusIndicator.className = "status-badge"; // Red background
+            statusIndicator.className = "status-badge";
+            blurOverlay.classList.add('active'); // Screen blur o dark kore dibe
         }
 
         function setOnlineStatus() {
             statusIndicator.innerText = "Live";
-            statusIndicator.className = "status-badge online"; // Green background
+            statusIndicator.className = "status-badge online"; // Video cholle blur hatie dibe
+            blurOverlay.classList.remove('active');
         }
 
         function playChannel(index) {
@@ -159,12 +210,14 @@
             let ch = channels[currentIndex];
             let formattedNum = String(currentIndex + 1).padStart(3, '0');
             
-            topChNum.innerText = `CH ${formattedNum}`;
+            // Ekhane SHAWON shohokare boro size-er channel number set kora holo
+            topChNum.innerText = `SHAWON ${formattedNum}`;
             topChName.innerText = ch.name;
             botChNum.innerText = currentIndex + 1;
             botChName.innerText = ch.name;
             
-            setOfflineStatus(); // Default to offline until stream actually starts playing
+            setOfflineStatus();
+            showBanners(); // Channel change korle banner show hobe ebong 4 sec por hide hobe
 
             if (Hls.isSupported()) {
                 if (hls) {
@@ -177,7 +230,7 @@
                 hls.on(Hls.Events.MANIFEST_PARSED, () => { 
                     video.play().then(() => {
                         setOnlineStatus();
-                    }).catch(err => {
+                    }).catch(() => {
                         setOfflineStatus();
                     }); 
                 });
@@ -207,10 +260,13 @@
             let keyCode = e.keyCode || e.which;
             
             if (keyCode === 38 || keyCode === 33 || keyCode === 19 || keyCode === 166) {
-                playChannel(currentIndex + 1); // Up button changes channel
+                playChannel(currentIndex + 1); // Up button
                 e.preventDefault();
             } else if (keyCode === 40 || keyCode === 34 || keyCode === 20 || keyCode === 167) {
-                playChannel(currentIndex - 1); // Down button changes channel
+                playChannel(currentIndex - 1); // Down button
+                e.preventDefault();
+            } else if (keyCode === 13) {
+                showBanners(); // OK button tiple banner abar 4 second er jonno dekhabe
                 e.preventDefault();
             }
         });
