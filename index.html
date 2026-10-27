@@ -3,32 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHAWON TV</title>
-    <!-- Hls.js লাইব্রেরি m3u8 স্ট্রিম স্মুথ প্লে করার জন্য -->
+    <title>SHAWON TV PALASHBARI</title>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <style>
         body { background-color: #000; color: #fff; margin: 0; font-family: sans-serif; overflow: hidden; }
         #video-container { width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center; }
-        video { width: 100%; height: 100%; background: #000; }
-        #channel-info { 
-            position: absolute; 
-            top: 20px; 
-            left: 20px; 
-            background: rgba(0, 0, 0, 0.85); 
-            padding: 12px 24px; 
-            font-size: 24px; 
-            font-weight: bold;
-            border-radius: 8px; 
+        video { width: 100%; height: 100%; background: #000; outline: none; }
+        
+        /* Top Right Corner Channel Badge */
+        #top-badge {
+            position: absolute;
+            top: 25px;
+            right: 35px;
+            background: rgba(10, 15, 30, 0.9);
+            border: 2px solid #1e3a8a;
+            padding: 12px 25px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.8);
             z-index: 10;
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
         }
+        #top-ch-num { font-size: 22px; font-weight: bold; color: #3b82f6; }
+        #top-ch-name { font-size: 20px; font-weight: bold; color: #fff; }
+
+        /* Bottom Lower Third Banner */
+        #bottom-banner {
+            position: absolute;
+            bottom: 35px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 1100px;
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.95));
+            border: 2px solid rgba(59, 130, 246, 0.4);
+            border-radius: 16px;
+            padding: 20px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.9);
+            z-index: 10;
+        }
+        .banner-left { display: flex; align-items: center; gap: 20px; }
+        .ch-box { background: #2563eb; color: #fff; font-size: 24px; font-weight: bold; padding: 10px 20px; border-radius: 10px; }
+        .ch-details h2 { margin: 0; font-size: 24px; color: #fff; }
+        .ch-details p { margin: 5px 0 0 0; font-size: 14px; color: #94a3b8; }
+        
+        .banner-right { display: flex; align-items: center; gap: 15px; }
+        .status-badge { background: #dc2626; color: #fff; padding: 6px 14px; border-radius: 6px; font-size: 14px; font-weight: bold; text-transform: uppercase; }
+        .status-badge.online { background: #16a34a; }
+        .quality-badge { background: #334155; color: #cbd5e1; padding: 6px 12px; border-radius: 6px; font-size: 14px; font-weight: bold; }
     </style>
 </head>
 <body>
-    <div id="channel-info">চ্যানেল লোড হচ্ছে...</div>
+
+    <!-- Top Right Badge -->
+    <div id="top-badge">
+        <span id="top-ch-num">CH 001</span>
+        <span id="top-ch-name">Loading...</span>
+    </div>
+
     <div id="video-container">
-        <video id="video" autoplay controls></video>
+        <video id="video" autoplay playsinline></video>
+    </div>
+
+    <!-- Bottom Lower Third Banner -->
+    <div id="bottom-banner">
+        <div class="banner-left">
+            <div class="ch-box" id="bot-ch-num">1</div>
+            <div class="ch-details">
+                <h2 id="bot-ch-name">Channel Name</h2>
+                <p>SHAWON TV PALASHBARI • Direct IPTV Stream</p>
+            </div>
+        </div>
+        <div class="banner-right">
+            <div id="status-indicator" class="status-badge">Offline</div>
+            <div class="quality-badge">LIVE</div>
+        </div>
     </div>
 
     <script>
@@ -36,51 +89,65 @@
         let channels = [];
         let currentIndex = 0;
         const video = document.getElementById('video');
-        const info = document.getElementById('channel-info');
+        
+        const topChNum = document.getElementById('top-ch-num');
+        const topChName = document.getElementById('top-ch-name');
+        const botChNum = document.getElementById('bot-ch-num');
+        const botChName = document.getElementById('bot-ch-name');
+        const statusIndicator = document.getElementById('status-indicator');
         let hls;
 
         async function loadPlaylist() {
             try {
-                const response = await fetch(m3uUrl + "?t=" + new Date().getTime()); // ক্যাশ এড়াতে টাইমস্ট্যাম্প যোগ করা হলো
+                const response = await fetch(m3uUrl + "?t=" + new Date().getTime());
                 const data = await response.text();
                 parseM3U(data);
             } catch (e) {
-                info.innerText = "প্লেলিস্ট লোড করতে ব্যর্থ! ইন্টারনেট কানেকশন চেক করুন।";
+                topChName.innerText = "Error Loading";
+                botChName.innerText = "Playlist Load Failed";
             }
         }
 
         function parseM3U(data) {
             const lines = data.split('\n');
-            let currentName = "";
+            let currentName = "Channel";
             
             for (let i = 0; i < lines.length; i++) {
                 let line = lines[i].replace(/\r/g, "").trim();
-                if (!line) continue;
+                if (!line || line.startsWith('#EXTM3U')) continue;
 
                 if (line.startsWith('#EXTINF')) {
                     let commaIndex = line.lastIndexOf(',');
                     if (commaIndex !== -1 && commaIndex < line.length - 1) {
                         currentName = line.substring(commaIndex + 1).trim();
-                        // যদি নামের ভেতরে অতিরিক্ত কোটেশন থাকে তা পরিষ্কার করা
-                        if (currentName.includes('"')) {
-                            currentName = currentName.replace(/.*"/, "").trim();
-                        }
-                    }
-                } else if (!line.startsWith('#')) {
-                    if (!currentName) {
+                    } else {
                         currentName = "Channel " + (channels.length + 1);
                     }
+                } else if (!line.startsWith('#')) {
                     let cleanUrl = line.split(/\s+/)[0].trim();
-                    channels.push({ name: currentName, url: cleanUrl });
-                    currentName = ""; // পরের চ্যানেলের জন্য রিসেট
+                    if (cleanUrl.startsWith('http://') || cleanUrl.startsWith('https://')) {
+                        channels.push({ name: currentName, url: cleanUrl });
+                        currentName = "Channel " + (channels.length + 1);
+                    }
                 }
             }
 
             if (channels.length > 0) {
                 playChannel(0);
             } else {
-                info.innerText = "ফাইলে কোনো চ্যানেল পাওয়া যায়নি!";
+                topChName.innerText = "No Channels";
+                botChName.innerText = "No Channels Found";
             }
+        }
+
+        function setOfflineStatus() {
+            statusIndicator.innerText = "Offline";
+            statusIndicator.className = "status-badge"; // Red background
+        }
+
+        function setOnlineStatus() {
+            statusIndicator.innerText = "Live";
+            statusIndicator.className = "status-badge online"; // Green background
         }
 
         function playChannel(index) {
@@ -90,8 +157,15 @@
             currentIndex = index;
             
             let ch = channels[currentIndex];
-            info.innerText = `${currentIndex + 1}/${channels.length}. ${ch.name}`;
+            let formattedNum = String(currentIndex + 1).padStart(3, '0');
             
+            topChNum.innerText = `CH ${formattedNum}`;
+            topChName.innerText = ch.name;
+            botChNum.innerText = currentIndex + 1;
+            botChName.innerText = ch.name;
+            
+            setOfflineStatus(); // Default to offline until stream actually starts playing
+
             if (Hls.isSupported()) {
                 if (hls) {
                     hls.destroy();
@@ -99,29 +173,44 @@
                 hls = new Hls();
                 hls.loadSource(ch.url);
                 hls.attachMedia(video);
+                
                 hls.on(Hls.Events.MANIFEST_PARSED, () => { 
-                    video.play().catch(err => console.log("অটোপ্লে ব্লকড:", err)); 
+                    video.play().then(() => {
+                        setOnlineStatus();
+                    }).catch(err => {
+                        setOfflineStatus();
+                    }); 
                 });
+
                 hls.on(Hls.Events.ERROR, (event, data) => {
-                    console.error("HLS এরর:", data);
                     if (data.fatal) {
-                        info.innerText = `${ch.name} - স্ট্রিম এরর! পরবর্তী চ্যানেলে যান।`;
+                        setOfflineStatus();
                     }
                 });
             } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
                 video.src = ch.url;
-                video.addEventListener('loadedmetadata', () => { video.play(); });
+                video.addEventListener('loadedmetadata', () => { 
+                    video.play().then(() => {
+                        setOnlineStatus();
+                    }).catch(() => {
+                        setOfflineStatus();
+                    });
+                });
+                video.addEventListener('error', () => {
+                    setOfflineStatus();
+                });
             }
         }
 
-        // টিভি রিমোট এবং কিবোর্ডের নেভিগেশন কন্ট্রোল (Up / Down / Channel Up / Channel Down)
+        // Remote / Keyboard navigation
         window.addEventListener('keydown', (e) => {
             let keyCode = e.keyCode || e.which;
-            if (keyCode === 38 || keyCode === 33 || keyCode === 19) { // Up / PageUp / KeyCode 19
-                playChannel(currentIndex - 1);
+            
+            if (keyCode === 38 || keyCode === 33 || keyCode === 19 || keyCode === 166) {
+                playChannel(currentIndex + 1); // Up button changes channel
                 e.preventDefault();
-            } else if (keyCode === 40 || keyCode === 34 || keyCode === 20) { // Down / PageDown / KeyCode 20
-                playChannel(currentIndex + 1);
+            } else if (keyCode === 40 || keyCode === 34 || keyCode === 20 || keyCode === 167) {
+                playChannel(currentIndex - 1); // Down button changes channel
                 e.preventDefault();
             }
         });
