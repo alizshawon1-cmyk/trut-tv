@@ -191,7 +191,7 @@ https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Star Plus hindi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Plus_HD.png" group-title="hindi",Star Plus HD
 https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="http://dvltv.cc:80/images/hzBbmMrmtIEGXqMnUe7kytFuxqpkYFmjCx-Y32pId7iLtuLMXGCZBhY1pCYums3.jpg",Channel
+#EXTINF:-1 tvg-logo="http://dvltv.cc:80/images/hzBbmMrmtIEGXqMnUe7kytFuxqpkYFmjCx-Y32pId7iLtuLMXGCZBhY1pCYums3.jpg",Colors hd
 http://dvltv.cc/live/Emon12345/Emon12346/41284.ts
 
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ES55-JQBv9knK3AHNDWC/posters/13411be9-62b9-4a99-a062-b6e91dfb1099.webp" group-title="Hindi",Sony Sab
