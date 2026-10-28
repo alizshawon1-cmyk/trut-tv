@@ -366,8 +366,8 @@ https://stream.ottplus.live/live/discovery_kids_abr/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/C1s5Hf5P/20240823_021444.png" group-title="𝐊𝐢𝐝𝐬",Pogo
 https://stream.ottplus.live/live/pogo_sd_abr/index.m3u8
 
-#EXTINF:-1 group-title="cartton", cartton
-https://tvsen6.aynaott.com/3abnkids/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="cartton", Hoory cartton
+https://d3go3d9yw1x2sb.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-obhh0sw25szth/5cc02970-213a-4eea-af2f-6a0dc11ca3a3/0.m3u8
 
 #EXTINF:-1, Special Cartoon
 http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/10002/index.m3u8
