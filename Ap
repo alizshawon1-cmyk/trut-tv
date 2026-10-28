@@ -191,6 +191,9 @@ https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Star Plus hindi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Plus_HD.png" group-title="hindi",Star Plus HD
 https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunklist.m3u8
 
+#EXTINF:-1 tvg-logo="http://dvltv.cc:80/images/hzBbmMrmtIEGXqMnUe7kytFuxqpkYFmjCx-Y32pId7iLtuLMXGCZBhY1pCYums3.jpg",Channel
+http://dvltv.cc/live/Emon12345/Emon12346/41284.ts
+
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ES55-JQBv9knK3AHNDWC/posters/13411be9-62b9-4a99-a062-b6e91dfb1099.webp" group-title="Hindi",Sony Sab
 https://drk6xq0vhn.gpcdn.net/live/sub_hd_abr/index.m3u8
 
@@ -202,6 +205,9 @@ https://live-dangal2.akamaized.net/liveabr/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/6pCXvxyz/20240823_022553.png",Star Gold HD
 https://fifabdmob.site/TG@RANAPKBD/MAC/SBHGOLD/play.m3u8?id=281254
+
+#EXTINF:-1 tvg-logo="http://dvltv.cc:80/images/hzBbmMrmtIEGXqMnUe7kysMCsVACj2Aieh2FqKtnevK2ttwJe7TRRJHWAuXfsaqe.jpg",Star Gold 2
+http://dvltv.cc/live/Emon12345/Emon12346/633.ts
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/6pCXvxyz/20240823_022553.png" group-title="Hindi",Star Gold select
 https://livetv.shamon-cable.net:8443/StarGoldSelect/tracks-v1a1/mono.m3u8
@@ -340,6 +346,9 @@ https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-name="Mr Bean Animated" group-title="CARTOON Drama",Mr Bean Animated
 https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://dvltv.cc:80/images/GdrGXE2y21DtmsglcwNKPgzNWo710ER22VAczkeUvha8ZnaiFgFk3u1EmpxvivgrKF3LRJ_r3IlPQLSBK8DJJzogAL7T5EcpFGX__xkLKBc.png",Nick
+http://103.135.253.32:8080/NICK/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/jSBDsbBX/20240823_021324.png" group-title="𝐊𝐢𝐝𝐬",Sony YaY
 https://stream.ottplus.live/live/sony_yay_abr/index.m3u8
