@@ -3,7 +3,7 @@
 https://livetv.shamon-cable.net:8443/T-Sports-FHD/tracks-v1a1/mono.m3u8 
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png",BTV
-https://robiproxi.bushmr263.workers.dev/?url=https://gov.iptv-network.workers.dev/live/national.m3u8
+https://btv.hridoytv-channel.workers.dev/btv.m3u8   
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Zqgx8hm1/20260430-184013.png",Channel 1
 https://drk6xq0vhn.gpcdn.net/live/channel_1_hd_abr/live/channel_1_hd_720/chunks.m3u8
