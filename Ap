@@ -212,6 +212,9 @@ http://dvltv.cc/live/Emon12345/Emon12346/633.ts
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/6pCXvxyz/20240823_022553.png" group-title="Hindi",Star Gold select
 https://livetv.shamon-cable.net:8443/StarGoldSelect/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/0yTSwT36/Star-Gold-Romance.png",Star Gold Romance
+http://dvltv.cc/live/Emon12345/Emon12346/2172.ts
+
 #EXTINF:-1 group-title="hindi",Ster Utseb movei
 https://fifabdmob.site/TG@RANAPKBD/MAC/SBHGOLD/play.m3u8?id=281286
 
