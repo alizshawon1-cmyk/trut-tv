@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png",T Sports
-https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8
-
+https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8    http://goldenpass.xyz/live/MAGYSHWT8A/MAGB4ETX51/510487.ts 
+ 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png",BTV
 https://btv.hridoytv-channel.workers.dev/btv.m3u8   
 
@@ -216,13 +216,13 @@ https://live-dangal.akamaized.net/liveabr/pub-iodang10p4al/live_720p/chunks.m3u8
 https://live-dangal2.akamaized.net/liveabr/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/6pCXvxyz/20240823_022553.png",Star Gold HD
-https://livetv.shamon-cable.net:8443/StarGold/tracks-v1a1/mono.m3u8    https://s1.itcnbd.live/Star.gold/index.m3u8
+http://goldenpass.xyz/live/MAGYSHWT8A/MAGB4ETX51/1020175.ts    https://s1.itcnbd.live/Star.gold/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://dvltv.cc:80/images/hzBbmMrmtIEGXqMnUe7kysMCsVACj2Aieh2FqKtnevK2ttwJe7TRRJHWAuXfsaqe.jpg",Star Gold 2
-http://dvltv.cc/live/Emon12345/Emon12346/633.ts
+http://goldenpass.xyz/live/MAGYSHWT8A/MAGB4ETX51/1020177.ts
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/6pCXvxyz/20240823_022553.png" group-title="Hindi",Star Gold select
-https://livetv.shamon-cable.net:8443/StarGoldSelect/tracks-v1a1/mono.m3u8
+http://goldenpass.xyz/live/MAGYSHWT8A/MAGB4ETX51/1020180.ts
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/0yTSwT36/Star-Gold-Romance.png",Star Gold Romance
 http://dvltv.cc/live/Emon12345/Emon12346/2172.ts
@@ -309,7 +309,7 @@ https://d3gnyty2vddhsg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://stream.ottlive.co.in/utvtamil/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Star Movies" tvg-logo="https://i.postimg.cc/yNvkbdL4/1000114150.png" group-title="Hindi", Star Movies HD
-https://livetv.shamon-cable.net:8443/Star-Movies/tracks-v1a1/mono.m3u8
+http://goldenpass.xyz/live/MAGYSHWT8A/MAGB4ETX51/1020182.ts   https://livetv.shamon-cable.net:8443/Star-Movies/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Star Movies HD" tvg-logo="https://i.postimg.cc/yNvkbdL4/1000114150.png" group-title="Hindi", Star Movies Select 
 https://livetv.shamon-cable.net:8443/Star-movies-select/tracks-v1a1/mono.m3u8
