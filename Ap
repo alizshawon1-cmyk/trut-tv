@@ -144,7 +144,7 @@ https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/y88mJsQC/20240823_020415.png",Sun Bangla 
-http://goldenpass.xyz/live/MAGYSHWT8A/MAGB4ETX51/510486.ts
+http://103.135.253.32:8080/SUN-BANGLA/index.m3u8
 
 #EXTINF:-1 tvg-id="019de785-39b1-7763-ad62-b9087039241f" tvg-name="Enter 10 Bangla" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-13/images_fc0d1242765efd4c1494fbfe4ff65c7a_playmist_enter_10_bangla400x400.jpg" group-title="Indian Bangla",Enter 10 Bangla
 https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8 
@@ -246,13 +246,16 @@ https://drk6xq0vhn.gpcdn.net/live/zee_tv_hd_abr/index.m3u8
 https://stream.ottplus.live/live/zee_action_abr/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://fcnchbd.xyz/iptv/logo/inhzc.png",Zee Cinema HD
-https://drk6xq0vhn.gpcdn.net/live/zee_cinema_hd_abr/live/zee_cinema_hd_720/chunks.m3u8
+https://j6nfugukcl.gpcdn.net/tile_5/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Cinema.png",Zee Cinema
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/OnSlPJYBcqxnFHJB6lFX/posters/d9ccb2a6-227f-4a41-8714-efaddab5cf5e.png",Zee Bollywood
 https://drk6xq0vhn.gpcdn.net/live/zee_bollywood_abr/live/zee_bollywood_720/chunks.m3u8
+
+#EXTINF:-1 group-title="Hindi & Regional",Bollyflix Hindi
+https://cc-r5hupcym5oehh.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-r5hupcym5oehh/ece6e311-8eb0-4fdf-8378-d337cba07ec2/0.m3u8
 
 #EXTINF:-1 group-title="ALL IN 1" tvg-logo="https://go4.pw/ASIA/INDIAN/ZEEANMOLCINEMA.png",HINDI - ZEE ANMOL CINEMA
 http://goldenpass.xyz/live/MAGYSHWT8A/MAGB4ETX51/1020195.ts
@@ -338,6 +341,46 @@ https://tvsen3.aynaott.com/Ah3tLAfA/index.m3u8
 #EXTINF:-1 tvg-id="MTV" tvg-name="MTV" tvg-logo="" group-title="Entertainment",MTV Movie
 https://tvsen6.aynaott.com/mtv/index.m3u8
 
+#EXTINF:-1 group-title="Movies",HBO HD republic
+http://88.212.15.50/live/test_hbo_hd_hevc/playlist.m3u8
+
+#EXTINF:-1 group-title="Movies",HBO 2 HD republic
+http://88.212.15.50/live/test_hbo2_hd_hevc/playlist.m3u8
+
+#EXTINF:-1 group-title="Movies",HBO 3 HD republic
+http://88.212.15.50/live/test_hbo3_hd_hevc/playlist.m3u8
+
+#EXTINF:-1 group-title="Movies",HBO 2 HD (Poland)
+http://185.227.34.179:8080/hbo-2-hd/index.m3u8
+
+#EXTINF:-1 group-title="Movies",AXN Hungary
+http://88.212.15.50/live/axn_hun/index.m3u8
+
+#EXTINF:-1 group-title="Movies",AXN Brazil
+http://170.83.16.50/AXN/index.m3u8
+
+#EXTINF:-1 group-title="Movies",Movies Now
+http://103.135.253.32:8080/MOVIES-NOW/index.m3u8
+
+#EXTINF:-1 group-title="Movies",Movie Trailers
+https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8
+
+#EXTINF:-1 group-title="Movies",Movie Action
+https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8
+
+#EXTINF:-1 group-title="Movies",Cinemax HD
+http://88.212.15.50/live/test_cinemax_hd_hevc/playlist.m3u8
+
+#EXTINF:-1 group-title="Movies",Cinemax 2 HD
+http://88.212.15.50/live/test_cinemax2_hd_hevc/playlist.m3u8
+
+#EXTINF:-1 group-title="Movies",5StarMax USA
+http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
+
+#EXTINF:-1 group-title="Hindi & Regional",MTV Russia
+http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
+
+
 #EXTINF:-1 tvg-name="Now Series" group-title="Series",Now Series
 http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/15102/index.m3u8
 
@@ -403,6 +446,9 @@ https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/index.m3u8
 
 #EXTINF:-1 tvg-id="RanaCableMusic" tvg-name="Rana Cable Music" tvg-logo="" group-title="Music",Rana Cable Music
 https://ranacable.duckdns.org/RanaCableMusic/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="Hindi & Regional",U Bangla Songs
+https://stream.ottlive.co.in/ubangla/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-name="Motu Patlu" group-title="CARTOON Drama",Motu Patlu
 https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
@@ -483,7 +529,19 @@ https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://livetv.shamon-cable.net:8443/SkySportsF1/index.m3u8 
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",xoilacz.io footbll
-https://tv.kbhub.online/Live-Event-Sports/xxxInter-Miami-vs-Atalanta.m3u8
+https://live1.quickscoreboardz.com/live/channel14/playlist.m3u8
+
+#EXTINF:-1 group-title="Sports" tvg-logo="",xoilacz.io footbll 2
+https://live1.quickscoreboardz.com/live/channel18/playlist.m3u8
+
+#EXTINF:-1 group-title="Sports" tvg-logo="",xoilacz.io footbll 3
+https://live1.quickscoreboardz.com/live/channel19/playlist.m3u8
+
+#EXTINF:-1 group-title="Sports",MF Prep Sports
+http://88.212.7.14/live/uatlmvixrr/index.m3u8
+
+#EXTINF:-1 group-title="Sports",Spiler 1 TV
+http://88.212.7.14/live/spiler1/index.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",KTV Sports
 https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist_b8000000_t64MTA4MHA=.m3u8
