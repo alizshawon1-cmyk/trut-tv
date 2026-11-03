@@ -405,7 +405,6 @@ http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
 #EXTINF:-1 group-title="Hindi & Regional",MTV Russia
 http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
 
-
 #EXTINF:-1 tvg-name="Now Series" group-title="Series",Now Series
 http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/15102/index.m3u8
 
@@ -534,6 +533,9 @@ https://cc-4bhi5osabejc9.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73d
 #EXTINF:-1 tvg-name="Tiny Pop" group-title="Kids",Tiny Pop
 https://amg01753-narrativeuk-amg01753c1-rakuten-uk-2339.playouts.now.amagi.tv/480p/index.m3u8
 
+#EXTINF:-1 group-title="Cartoon" tvg-name="Cartoon Network",Cartoon Network
+https://cdn.bestream.io/prime/prime.m3u8
+
 #------------------------------------------------------------------------------
 # CATEGORY: DOCUMENTARY & KNOWLEDGE
 #------------------------------------------------------------------------------
@@ -588,9 +590,6 @@ http://88.212.7.14/live/spiler1/index.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="",KTV Sports
 https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist_b8000000_t64MTA4MHA=.m3u8
 
-#EXTINF:-1 group-title="Sports" tvg-logo="", SF Sports 
-https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409/variant/22100007.m3u8
-
 #EXTINF:-1 group-title="Sports", M4T4 Football 3
 http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/522/index.m3u8
 
@@ -603,11 +602,32 @@ https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports1080p.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="",Gol TV 2
 https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8
 
+#EXTINF:-1 group-title="Football" tvg-name="SSC 3",SSC 3
+http://leone62.com/live/1119098689177/XR3icL7qGN/1469580.ts.m3u8 
+
+#EXTINF:-1 group-title="Football" tvg-name="SSC 4",SSC 4
+http://leone62.com/live/1119098689177/XR3icL7qGN/1279494.ts.m3u8 
+
+#EXTINF:-1 group-title="Football" tvg-name="TNT Sports 1",TNT Sports 1
+http://leone62.com/live/1119098689177/XR3icL7qGN/980407.ts.m3u8 
+
+#EXTINF:-1 group-title="Football" tvg-name="TNT Sports 2",TNT Sports 2
+http://leone62.com/live/1119098689177/XR3icL7qGN/17281.ts.m3u8 
+
+#EXTINF:-1 group-title="Football" tvg-name="TNT Sports 3",TNT Sports 3
+http://leone62.com/live/1119098689177/XR3icL7qGN/1287085.ts.m3u8 
+
+#EXTINF:-1 group-title="Sports" tvg-logo="",TNT Sports 4
+http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/311556.ts.m3u8 
+
+#EXTINF:-1 group-title="Sports" tvg-logo="",TNT Sports 5
+http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/311558.ts.m3u8 
+
 #EXTINF:-1  tvg-logo="https://tinyurl.com/y8s5kvty",TRT 1
-https://fifabdmob.site/TG@RANAPKBD/MAC/SBHGOLD/play.m3u8?id=260092
+https://fifabdmob.site/TG@RANAPKBD/MAC/SBHGOLD/play.m3u8
 
 #EXTINF:-1  tvg-logo="https://tinyurl.com/y8s5kvty",TRT 2
-https://fifabdmob.site/TG@RANAPKBD/MAC/SBHGOLD/play.m3u8?id=260094
+https://fifabdmob.site/TG@RANAPKBD/MAC/SBHGOLD/play.m3u8
 
 #EXTINF:-1  tvg-logo="https://tinyurl.com/y8s5kvty",TSN 
 https://tvsen7.aynaott.com/tsn/index.m3u8
@@ -617,18 +637,6 @@ https://tvsen7.aynaott.com/tsn1/index.m3u8
 
 #EXTINF:-1  tvg-logo="https://tinyurl.com/y8s5kvty",TSN 3
 https://tvsen7.aynascope.net/tsn3/index.m3u8
-
-#EXTINF:-1 group-title="Sports" tvg-logo="",TNT Sports 1
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/17281.ts.m3u8 
-
-#EXTINF:-1 group-title="Sports" tvg-logo="",TNT Sports 3
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/980407.ts.m3u8 
-
-#EXTINF:-1 group-title="Sports" tvg-logo="",TNT Sports 4
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/311556.ts.m3u8 
-
-#EXTINF:-1 group-title="Sports" tvg-logo="",TNT Sports 5
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/311558.ts.m3u8 
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",Espen Sports
 https://tvsen7.aynaott.com/espn/index.m3u8
@@ -654,14 +662,32 @@ http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/62502.ts.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="",Dazan Sports
 http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/19158/index.m3u8
 
+#EXTINF:-1 group-title="Football" tvg-name="Geo Super",Geo Super
+http://leone62.com/live/1119098689177/XR3icL7qGN/1470225.ts.m3u8
+
 #EXTINF:-1 group-title="Sports" tvg-logo="",Premier Sports
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1481889.ts.m3u8
+
+#EXTINF:-1 group-title="Football" tvg-name="Ligue 1 4K",Ligue 1 4K
+http://leone62.com/live/1119098689177/XR3icL7qGN/1150954.ts.m3u8
+
+#EXTINF:-1 group-title="Football" tvg-name="Astro SuperSport 4K",Astro SuperSport 4K
+http://leone62.com/live/1119098689177/XR3icL7qGN/1281071.ts.m3u8
+
+#EXTINF:-1 group-title="Football" tvg-name="Eleven Sports 4K",Eleven Sports 4K
+http://leone62.com/live/1119098689177/XR3icL7qGN/1281083.ts.m3u8
+
+#EXTINF:-1 group-title="Football" tvg-name="Abu Dhabi Sports",Abu Dhabi Sports
+http://leone62.com/live/1119098689177/XR3icL7qGN/1469574.ts.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",Sports Digital
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/900984.ts.m3u8 
 
-#EXTINF:-1 group-title="Sports" tvg-logo="",Star Play Sports
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1469577.ts.m3u8
+#EXTINF:-1 group-title="Football" tvg-name="StarzPlay Sports 1",StarzPlay Sports 1
+http://leone62.com/live/1119098689177/XR3icL7qGN/1469576.ts.m3u8 
+
+#EXTINF:-1 group-title="Football" tvg-name="StarzPlay Sports 2",StarzPlay Sports 2
+http://leone62.com/live/1119098689177/XR3icL7qGN/1469579.ts.m3u8 
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",Geo Super HD
 http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/32295/index.m3u8
@@ -721,13 +747,13 @@ https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8
 https://drk6xq0vhn.gpcdn.net/live/ten_2_hd_720/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 4
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/510281.ts
+http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/510281.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/W4tx7R4Q/20240823_024232.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 5
 https://drk6xq0vhn.gpcdn.net/live/ten_5_hd_720/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png",Super sports criket
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/348289.ts.m3u8
+http://leone62.com/live/1119098689177/XR3icL7qGN/1404528.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png",Sky sports Cricket
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/980432.ts.m3u8 
@@ -737,6 +763,9 @@ http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9289/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/W1z5BGPZ/20240823_024712.png",A Sports HD
 https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 group-title="Cricket" tvg-name="Cricbuzz",Cricbuzz
+http://leone62.com/live/1119098689177/XR3icL7qGN/1404520.ts.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",Cricbuzz Cricket HD
 https://tvsen7.aynaott.com/rEBp38Ax/index.m3u8
