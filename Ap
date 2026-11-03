@@ -602,32 +602,11 @@ https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports1080p.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="",Gol TV 2
 https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8
 
-#EXTINF:-1 group-title="Football" tvg-name="SSC 3",SSC 3
-http://leone62.com/live/1119098689177/XR3icL7qGN/1469580.ts.m3u8 
-
-#EXTINF:-1 group-title="Football" tvg-name="SSC 4",SSC 4
-http://leone62.com/live/1119098689177/XR3icL7qGN/1279494.ts.m3u8 
-
-#EXTINF:-1 group-title="Football" tvg-name="TNT Sports 1",TNT Sports 1
-http://leone62.com/live/1119098689177/XR3icL7qGN/17281.ts.m3u8 
-
-#EXTINF:-1 group-title="Football" tvg-name="TNT Sports 2",TNT Sports 2
-http://leone62.com/live/1119098689177/XR3icL7qGN/1287085.ts.m3u8  
-
-#EXTINF:-1 group-title="Football" tvg-name="TNT Sports 3",TNT Sports 3
-http://leone62.com/live/1119098689177/XR3icL7qGN/980407.ts.m3u8 
-
 #EXTINF:-1 group-title="Sports" tvg-logo="",TNT Sports 4
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/311556.ts.m3u8 
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",TNT Sports 5
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/311558.ts.m3u8 
-
-#EXTINF:-1  tvg-logo="https://tinyurl.com/y8s5kvty",TRT 1
-https://fifabdmob.site/TG@RANAPKBD/MAC/SBHGOLD/play.m3u8
-
-#EXTINF:-1  tvg-logo="https://tinyurl.com/y8s5kvty",TRT 2
-https://fifabdmob.site/TG@RANAPKBD/MAC/SBHGOLD/play.m3u8
 
 #EXTINF:-1  tvg-logo="https://tinyurl.com/y8s5kvty",TSN 
 https://tvsen7.aynaott.com/tsn/index.m3u8
@@ -662,35 +641,14 @@ http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/62502.ts.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="",Dazan Sports
 http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/19158/index.m3u8
 
-#EXTINF:-1 group-title="Football" tvg-name="Geo Super",Geo Super
-http://leone62.com/live/1119098689177/XR3icL7qGN/1470225.ts.m3u8
-
 #EXTINF:-1 group-title="Sports" tvg-logo="",Premier Sports
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1481889.ts.m3u8
-
-#EXTINF:-1 group-title="Football" tvg-name="Ligue 1 4K",Ligue 1 4K
-http://leone62.com/live/1119098689177/XR3icL7qGN/1150954.ts.m3u8
-
-#EXTINF:-1 group-title="Football" tvg-name="Astro SuperSport 4K",Astro SuperSport 4K
-http://leone62.com/live/1119098689177/XR3icL7qGN/1281071.ts.m3u8
-
-#EXTINF:-1 group-title="Football" tvg-name="Eleven Sports 4K",Eleven Sports 4K
-http://leone62.com/live/1119098689177/XR3icL7qGN/1281083.ts.m3u8
-
-#EXTINF:-1 group-title="Football" tvg-name="Abu Dhabi Sports",Abu Dhabi Sports
-http://leone62.com/live/1119098689177/XR3icL7qGN/975106.ts.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",Sports Digital
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/900984.ts.m3u8 
 
 #EXTINF:-1 group-title="Football" tvg-name="StarzPlay Sports 1",StarzPlay Sports 1
-http://leone62.com/live/1119098689177/XR3icL7qGN/1469576.ts.m3u8 
-
-#EXTINF:-1 group-title="Football" tvg-name="StarzPlay Sports 2",StarzPlay Sports 2
-http://leone62.com/live/1119098689177/XR3icL7qGN/1469579.ts.m3u8 
-
-#EXTINF:-1 group-title="Sports" tvg-logo="",Geo Super HD
-http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/32295/index.m3u8
+http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1469577.ts.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg", Unite 8 Sports 1 HD
 https://livetv.shamon-cable.net:8443/Unite8-sports-1/tracks-v1a1/mono.m3u8
