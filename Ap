@@ -638,11 +638,14 @@ http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/6125/index.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/B6TPgPPT/20250120_193903.png",Bein Sports 5
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/62502.ts.m3u8 
 
-#EXTINF:-1 group-title="Sports" tvg-logo="",Dazan Sports
-http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/19158/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="", v sport one
+http://ultra1208club.xyz:80/dPyA58w67914/cmzTWrhNGMJ7/277089.m3u8 
 
-#EXTINF:-1 group-title="Sports" tvg-logo="",Premier Sports
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1481889.ts.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="", v sport primeum
+http://ultra1208club.xyz:80/dPyA58w67914/cmzTWrhNGMJ7/74589.m3u8  
+
+#EXTINF:-1 group-title="Sports" tvg-logo="", v sport extere
+http://ultra1208club.xyz:80/dPyA58w67914/cmzTWrhNGMJ7/277098.m3u8 
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",Sports Digital
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/900984.ts.m3u8 
