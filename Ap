@@ -683,7 +683,7 @@ https://playztv-apps.pages.dev/ptv-sports/index.m3u8
 https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/bfc6a36e-c250-4afe-b6c9-2bc57855bb7d/4.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/DzDHjCJm/20240823_024249.png",Star Sports 1 HD
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1090635.ts.m3u8
+https://livetv.shamon-cable.net:8443/Star-sports-1/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/zBgM9nK7/20240823_024306.png",Star Sports HD2
 https://tvsen7.aynaott.com/ssport2hd/index.m3u8
@@ -707,10 +707,13 @@ http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1292016.ts.m3u8
 https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 2
-https://drk6xq0vhn.gpcdn.net/live/ten_2_hd_720/index.m3u8
+https://livetv.shamon-cable.net:8443/Sony-sports-2/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 3
+https://livetv.shamon-cable.net:8443/Sony-sports-3/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 4
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/510281.ts.m3u8
+https://livetv.shamon-cable.net:8443/Sony-sports-4/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/W4tx7R4Q/20240823_024232.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 5
 https://drk6xq0vhn.gpcdn.net/live/ten_5_hd_720/index.m3u8
