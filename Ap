@@ -572,14 +572,6 @@ https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="Euro Sport" group-title="Sports",SkySports F1
 https://livetv.shamon-cable.net:8443/SkySportsF1/index.m3u8 
 
-#EXTINF:-1 group-title="Sports" tvg-logo="",xoilacz.io footbll
-https://live1.quickscoreboardz.com/live/channel14/playlist.m3u8
-
-#EXTINF:-1 group-title="Sports" tvg-logo="",xoilacz.io footbll 2
-https://live1.quickscoreboardz.com/live/channel18/playlist.m3u8
-
-#EXTINF:-1 group-title="Sports" tvg-logo="",xoilacz.io footbll 3
-https://live1.quickscoreboardz.com/live/channel19/playlist.m3u8
 
 #EXTINF:-1 group-title="Sports",MF Prep Sports
 http://88.212.7.14/live/uatlmvixrr/index.m3u8
@@ -637,15 +629,6 @@ http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/6125/index.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/B6TPgPPT/20250120_193903.png",Bein Sports 5
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/62502.ts.m3u8 
-
-#EXTINF:-1 group-title="Sports" tvg-logo="", v sport one
-http://ultra1208club.xyz:80/dPyA58w67914/cmzTWrhNGMJ7/277089.m3u8 
-
-#EXTINF:-1 group-title="Sports" tvg-logo="", v sport primeum
-http://ultra1208club.xyz:80/dPyA58w67914/cmzTWrhNGMJ7/74589.m3u8  
-
-#EXTINF:-1 group-title="Sports" tvg-logo="", v sport extere
-http://ultra1208club.xyz:80/dPyA58w67914/cmzTWrhNGMJ7/277098.m3u8 
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",Sports Digital
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/900984.ts.m3u8 
@@ -746,5 +729,6 @@ http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1405863.ts.m3u8
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ra2x_pQBrjBfS2_RWG9l/posters/795170c2-ec78-457e-9fa0-54a23d23361c.webp",Ten cricket
 https://drk6xq0vhn.gpcdn.net/live/ten_cricket_hd_abr/live/ten_cricket_hd_720/chunks.m3u8
 
-
+#EXTINF:-1 group-title="Sports" tvg-logo="", rabbitlolebd
+https://hpc5-nmc-mnc.mydex.tv/_tkn_st=1793849106~exp=1793877966~acl=/bpk-tv/202/default/*~eti=ec6f90c3bb4e2adc840061f03b9e10fc~sid=27774d63525ecb4a~imax=2~hmac=5f85510854d2be9c155c395e0011573f36d7dbb697aa44cc3ccf956a18025bd9/bpk-tv/202/default/index.m3u8
 
