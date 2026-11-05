@@ -169,6 +169,9 @@ https://iptvlive-beta.vercel.app/jalsha-movies/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Kc7BJRCy/20240823_020704.png",Sananda TV
 https://live.sanandatelevision.in/sananda/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-logo="",Snb cineme
+http://103.182.83.246/hls/snbcinema.m3u8 
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQshDlozqT2hxQaCWgBf6Fv4aXNjPXKrp9YeA&s",Bangla plus movei TV
 https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8
 
@@ -196,7 +199,7 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v1a1/mono.m3u8 
 
 #EXTINF:-1 tvg-logo="https://madanichannelbangla.tv/img/img/logo/b-logo.png" group-title="SM All TV",Madani TV বাংলা
-https://tvsen3.aynaott.com/z24qLsqV/tracks-v1/mono.ts.m3u8 
+https://tvsen3.aynaott.com/z24qLsqV/index.m3u8
 
 #EXTINF:-1 tvg-id="Iqraafasttv1" tvg-name="Iqra TV" tvg-logo="" group-title="Islamic",Iqra TV
 https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist/0.m3u8
@@ -323,8 +326,17 @@ https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/KjjqnRH/Picsart-23-06-30-21-35-20-283.png",Shemaroo Bollywood
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="",Mh one movei
+https://streams.tangotv.in/MHONE/ORIGIN/index.m3u8
+
+#EXTINF:-1 tvg-logo="",C malayalam tv
+https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8
+
 #EXTINF:-1 group-title="ALL IN 1" tvg-logo="https://go4.pw/India/WOW_CINEMA.png",HINDI - WOW CINEMA
 http://goldenpass.xyz/live/MAGYSHWT8A/MAGB4ETX51/613388.ts
+
+#EXTINF:-1 tvg-logo="",Epic crimes
+https://cc-wsuyg2uxeak04.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-wsuyg2uxeak04/master.m3u8 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw1zW8RLLNCQm6UHcIIJZlscOB5vhs7BF2I7SfTthYGv3LtHeRSut2-Ag&s=10",Action Hollywood
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
@@ -579,8 +591,11 @@ http://88.212.7.14/live/uatlmvixrr/index.m3u8
 #EXTINF:-1 group-title="Sports",Spiler 1 TV
 http://88.212.7.14/live/spiler1/index.m3u8
 
-#EXTINF:-1 group-title="Sports" tvg-logo="",KTV Sports
+#EXTINF:-1 group-title="Sports" tvg-logo=",KTV Sports
 https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist_b8000000_t64MTA4MHA=.m3u8
+
+#EXTINF:-1 group-title="Sports" tvg-logo="",Bahrain 
+https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8 
 
 #EXTINF:-1 group-title="Sports", M4T4 Football 3
 http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/522/index.m3u8
@@ -635,6 +650,9 @@ http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/900984.ts.m3u8
 
 #EXTINF:-1 group-title="Football" tvg-name="StarzPlay Sports 1",StarzPlay Sports 1
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1469577.ts.m3u8
+
+#EXTINF:-1 group-title="Sports" tvg-logo="",a spor
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8 
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg", Unite 8 Sports 1 HD
 https://livetv.shamon-cable.net:8443/Unite8-sports-1/tracks-v1a1/mono.m3u8
