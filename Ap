@@ -732,3 +732,5 @@ https://drk6xq0vhn.gpcdn.net/live/ten_cricket_hd_abr/live/ten_cricket_hd_720/chu
 #EXTINF:-1 group-title="Sports" tvg-logo="", rabbitlolebd
 https://hpc5-nmc-mnc.mydex.tv/_tkn_st=1793849106~exp=1793877966~acl=/bpk-tv/202/default/*~eti=ec6f90c3bb4e2adc840061f03b9e10fc~sid=27774d63525ecb4a~imax=2~hmac=5f85510854d2be9c155c395e0011573f36d7dbb697aa44cc3ccf956a18025bd9/bpk-tv/202/default/index.m3u8
 
+#EXTINF:-1 tvg-id="Tapmad" tvg-name="Tapmad Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e0/Tapmad_logo.png" group-title="Sport",Tapmad Live Stream
+https://seriealeague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8
