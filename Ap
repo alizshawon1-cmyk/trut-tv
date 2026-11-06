@@ -158,7 +158,7 @@ http://103.135.253.32:8080/SUN-BANGLA/index.m3u8
 https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8 
 
 #EXTINF:-1 tvg-url="https://raw.githubusercontent.com/personaliptv/paid-link-1/main/482243292_642826978446244_6712273032991625548_n.jpg" group-title="নাটক",SONY Aath
-https://drk6xq0vhn.gpcdn.net/live/sony_aath_abr/live/sony_aath_720/chunks.m3u8
+https://stream.ottplus.live/live/sony_aath_abr/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/rFcCkS5m/20240822_231714.png",Jalsha Movies
 https://livetv.shamon-cable.net:8443/Jalsha-Movies/tracks-v1a1/mono.m3u8
