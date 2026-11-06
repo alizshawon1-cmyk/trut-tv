@@ -704,7 +704,7 @@ http://103.135.253.32:8080/PTV-SPORTS/tracks-v1a1/mono.m3u8
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1292016.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/65fsWLS1/20240823_024136.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 1
-https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8
+http://103.135.253.32:8080/TEN-1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 2
 https://livetv.shamon-cable.net:8443/Sony-sports-2/tracks-v1a1/mono.m3u8
@@ -716,7 +716,7 @@ https://livetv.shamon-cable.net:8443/Sony-sports-3/tracks-v1a1/mono.m3u8
 https://livetv.shamon-cable.net:8443/Sony-sports-4/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/W4tx7R4Q/20240823_024232.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 5
-https://drk6xq0vhn.gpcdn.net/live/ten_5_hd_720/index.m3u8
+http://103.135.253.32:8080/TEN-5/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png",Super sports criket
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/348289.ts.m3u8
