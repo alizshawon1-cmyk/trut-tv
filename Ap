@@ -16,7 +16,7 @@ https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/tracks-v1a1/mono.ts.m3u8
 https://drk6xq0vhn.gpcdn.net/live/channel_1_hd_abr/live/channel_1_hd_720/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/QCKgdb09/20240822-230145.png",Somoy TV
-https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/tracks-v1a1/mono.ts.m3u8
+http://103.135.253.32:8080/SOMOY-TV/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png",Jamuna TV
 https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/tracks-v1a1/mono.ts.m3u8
@@ -149,7 +149,10 @@ https://d1rc86nwwc9fag.cloudfront.net/260723/smil:zeebangla.smil/chunklist_b8960
 https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/dtBRtL99/20240822_231732.png",Zee Bangla cinema
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8
+http://103.135.253.32:8080/ZEE-BANGLA-CINEMA/index.m3u8
+
+#EXTINF:-1 tvg-id="ch_91" tvg-name="Colors Bangla Cinema" tvg-logo="https://pub-dbd59bcc344f405ab5a1f9697b81831f.r2.dev/colors-bangla-cinema.webp" group-title="Movies",Colors Bangla Cinema
+http://103.135.253.32:8080/COLORS-BANGLA-CINEMA/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/y88mJsQC/20240823_020415.png",Sun Bangla 
 http://103.135.253.32:8080/SUN-BANGLA/index.m3u8
@@ -701,7 +704,7 @@ http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1090640.ts.m3u8
 http://103.135.253.32:8080/PTV-SPORTS/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/10-by-xfireflix.png",TEN SPORTS
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1292016.ts.m3u8
+http://103.135.253.32:8080/Ten-Sports/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/65fsWLS1/20240823_024136.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 1
 http://103.135.253.32:8080/TEN-1/index.m3u8
