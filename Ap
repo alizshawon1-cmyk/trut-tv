@@ -7,7 +7,7 @@
 https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png",BTV
-https://btv.hridoytv-channel.workers.dev/btv.m3u8   
+http://103.135.253.32:8080/BTV/index.m3u8
 
 #EXTINF:-1 tvg-id="019efa45-e602-76d0-b2f0-155f9f2b893d" tvg-name="BTV CTG" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/0cff8323fa888ccb69dde38a6880f150.jpg" group-title="Bangla",BTV CTG
 https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/tracks-v1a1/mono.ts.m3u8 
@@ -754,15 +754,6 @@ http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1405863.ts.m3u8
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ra2x_pQBrjBfS2_RWG9l/posters/795170c2-ec78-457e-9fa0-54a23d23361c.webp",Ten cricket
 https://drk6xq0vhn.gpcdn.net/live/ten_cricket_hd_abr/live/ten_cricket_hd_720/chunks.m3u8
 
-#EXTINF:-1 group-title="Sports" tvg-logo="", rabbitlolebd
-https://hpc5-nmc-mnc.mydex.tv/_tkn_st=1793849106~exp=1793877966~acl=/bpk-tv/202/default/*~eti=ec6f90c3bb4e2adc840061f03b9e10fc~sid=27774d63525ecb4a~imax=2~hmac=5f85510854d2be9c155c395e0011573f36d7dbb697aa44cc3ccf956a18025bd9/bpk-tv/202/default/index.m3u8
-
 #EXTINF:-1 tvg-id="Tapmad" tvg-name="Tapmad Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e0/Tapmad_logo.png" group-title="Sport",Tapmad Live Stream
 https://seriealeague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8
-
-#EXTINF:-1 group-title="Sports" tvg-logo="",tnt
-https://ranapkz.site/RANAPKX73/MAXCDNx/play.php?id=894969
-#EXTINF:-1 group-title="Sports" tvg-logo="", footbl
-https://ranapkz.site/RANAPKX73/MAXCDNx/play.php?id=894977
-
 
