@@ -719,20 +719,21 @@ https://live.msnetworks.net/ptv-sports/master.m3u8
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/10-by-xfireflix.png",TEN SPORTS
 http://103.135.253.32:8080/Ten-Sports/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/65fsWLS1/20240823_024136.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 1
-https://allinonereborn2.online/livtest3/stream_proxy.php?url=https%3A%2F%2Fallinonereborn2.online%2Fsony-new%2Fplaylists%2Fsony_ten1_hd.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 2
-https://allinonereborn2.online/livtest3/stream_proxy.php?url=https%3A%2F%2Fallinonereborn2.online%2Fsony-new%2Fplaylists%2Fsony_ten2_hd.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 3
-https://allinonereborn2.online/livtest3/stream_proxy.php?url=https%3A%2F%2Fallinonereborn2.online%2Fsony-new%2Fplaylists%2Fsony_ten3_hd.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 4
-https://allinonereborn2.online/livtest3/stream_proxy.php?url=https%3A%2F%2Fallinonereborn2.online%2Fsony-new%2Fplaylists%2Fsony_ten4_hd.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/W4tx7R4Q/20240823_024232.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 5
-https://allinonereborn2.online/livtest3/stream_proxy.php?url=https%3A%2F%2Fallinonereborn2.online%2Fsony-new%2Fplaylists%2Fsony_ten5_hd.m3u8
+#EXTINF:-1 tvg-id="s57" tvg-name="Sony Sports TEN 1" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEjXp4GTtFL30fkazCObt8Ak9GVdnMcX3GYDCg9nvuEPgdPF9ql0oD_RfNoAZ9XyTeIbPJrql_UygrnlrVOuBjR6tIm_2GkCL9g1VwqRNa83EDIkrWYMgZTdOR5GTGgobZqXgx6sGxKKK9Pj_-BYSbngRG6cqBIYE0ARopFpFLK0wllpjhk0zb2MS7qMTDC4" group-title="Sports", Sony Sports TEN 1
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Sports%20TEN%201.m3u8
+#EXTINF:-1 tvg-id="s58" tvg-name="Sony Sports TEN 2" tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="Sports", Sony Sports TEN 2
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Sports%20TEN%202.m3u8
+#EXTINF:-1 tvg-id="s59" tvg-name="Sony Sports TEN 3" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEjbXNl3qwLHjQWF9x95z8F0KXwR7kmx-8HSphs6w2nDy1YvNUFPqAB16TPPotG2OIPyy-FdgVHE8jipV-6i6MowbZuuYXenajQGeJU6UQB-omlWRNdybmW39C2uk2iiO3TQkAv2pFL91-SW32-yQkxwXhbN4mQWEi-Gt3mEbnHcCXPCzjjc5O6L0lCiOzMI" group-title="Sports", Sony Sports TEN 3
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Sports%20TEN%203.m3u8
+#EXTINF:-1 tvg-id="s60" tvg-name="Sony Sports TEN 4" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEjZidBd1Cj8x_o7amQxiQJBPTetP6Dj9ksIuTAfA0KCMYC9Ufa_jjaA6dqO2bqI2QFGk7Yu7fkg-eOnG8PlmVcxUZwgyg1dvhJxHBQMSnbV5whzxdMPvkrA4K-c7H30sJ9j-J4wuoGcHlOrxwGa3CCblssZ-_CpyQ-7ef9R8xpCDt_2TvgTvcqA_pCQbyvs" group-title="Sports", Sony Sports TEN 4
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Sports%20TEN%204.m3u8
+#EXTINF:-1 tvg-id="s61" tvg-name="Sony Sports TEN 5" tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-sports-ten-5.png" group-title="Sports", Sony Sports TEN 5
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Sports%20TEN%205.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png",Super sports criket
