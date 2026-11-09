@@ -291,10 +291,10 @@ http://goldenpass.xyz/live/MAGYSHWT8A/MAGB4ETX51/1020195.ts
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/JhR9HDw4/20240823_023056.png",Cineplex TV
 https://d1rc86nwwc9fag.cloudfront.net/260723/smil:rishteycineplexukdev.smil/chunklist_b1928000.m3u8
 
-#EXTINF:-1 tvg-id="StarMaaMovies.in" tvg-name="STAR MAA MOVIES HD" tvg-logo="https://tinyurl.com/mr2dec8v" group-title="Hindi",STAR MAA MOVIES HD
+#EXTINF:-1 group-title="AS | IN | HINDI" tvg-logo="https://go4.pw/ASIA/TELEGU/MAAMOVIESHD.png",HINDI - MAA MOVIES
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starmaa1.smil/chunklist_b2628000.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/mr2dec8v" group-title="Hindi",Star maa movies
+#EXTINF:-1 group-title="AS | IN | HINDI" tvg-logo="https://go4.pw/ASIA/INDIA/sky-star-movie.png",HINDI - MAHA MOVIES
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/mr2dec8v",Pitaara TV
