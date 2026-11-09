@@ -7,7 +7,7 @@
 https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png",BTV
-http://103.135.253.32:8080/BTV/index.m3u8
+https://btv.hridoytv-channel.workers.dev/btv.m3u8 
 
 #EXTINF:-1 tvg-id="019efa45-e602-76d0-b2f0-155f9f2b893d" tvg-name="BTV CTG" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/0cff8323fa888ccb69dde38a6880f150.jpg" group-title="Bangla",BTV CTG
 https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/tracks-v1a1/mono.ts.m3u8 
@@ -16,7 +16,7 @@ https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/tracks-v1a1/mono.ts.m3u8
 https://drk6xq0vhn.gpcdn.net/live/channel_1_hd_abr/live/channel_1_hd_720/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/QCKgdb09/20240822-230145.png",Somoy TV
-http://103.135.253.32:8080/SOMOY-TV/index.m3u8
+https://drk6xq0vhn.gpcdn.net/live/somoy_tv_abr/live/somoy_tv_720/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png",Jamuna TV
 https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/tracks-v1a1/mono.ts.m3u8
@@ -714,25 +714,26 @@ http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1090639.ts.m3u8
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1090640.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/20-by-xfireflix.png",PTV Sports
-http://103.135.253.32:8080/PTV-SPORTS/tracks-v1a1/mono.m3u8
+https://live.msnetworks.net/ptv-sports/master.m3u8  
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/10-by-xfireflix.png",TEN SPORTS
 http://103.135.253.32:8080/Ten-Sports/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/65fsWLS1/20240823_024136.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 1
-http://103.135.253.32:8080/TEN-1/index.m3u8
+https://allinonereborn2.online/livtest3/stream_proxy.php?url=https%3A%2F%2Fallinonereborn2.online%2Fsony-new%2Fplaylists%2Fsony_ten1_hd.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 2
-https://livetv.shamon-cable.net:8443/Sony-sports-2/tracks-v1a1/mono.m3u8
+https://allinonereborn2.online/livtest3/stream_proxy.php?url=https%3A%2F%2Fallinonereborn2.online%2Fsony-new%2Fplaylists%2Fsony_ten2_hd.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 3
-https://livetv.shamon-cable.net:8443/Sony-sports-3/tracks-v1a1/mono.m3u8
+https://allinonereborn2.online/livtest3/stream_proxy.php?url=https%3A%2F%2Fallinonereborn2.online%2Fsony-new%2Fplaylists%2Fsony_ten3_hd.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 4
-https://livetv.shamon-cable.net:8443/Sony-sports-4/tracks-v1a1/mono.m3u8
+https://allinonereborn2.online/livtest3/stream_proxy.php?url=https%3A%2F%2Fallinonereborn2.online%2Fsony-new%2Fplaylists%2Fsony_ten4_hd.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/W4tx7R4Q/20240823_024232.png" group-title="𝐒𝐩𝐨𝐫𝐭𝐬",Sony Ten 5
-http://103.135.253.32:8080/TEN-5/index.m3u8
+https://allinonereborn2.online/livtest3/stream_proxy.php?url=https%3A%2F%2Fallinonereborn2.online%2Fsony-new%2Fplaylists%2Fsony_ten5_hd.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png",Super sports criket
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/348289.ts.m3u8
@@ -745,9 +746,6 @@ http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9289/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/W1z5BGPZ/20240823_024712.png",A Sports HD
 https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="Sports" tvg-logo="", nepel criket leg
-https://hugh.cdn.rumble.cloud/live/kd32s8ur/live-hls/3k8z-wjcq/chunklist_i1_DVR.m3u8
 
 #EXTINF:-1 group-title="Cricket" tvg-name="Cricbuzz",Cricbuzz
 http://leone62.com/live/1119098689177/XR3icL7qGN/1404519.ts.m3u8
@@ -765,7 +763,7 @@ https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.clo
 http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1405863.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ra2x_pQBrjBfS2_RWG9l/posters/795170c2-ec78-457e-9fa0-54a23d23361c.webp",Ten cricket
-https://drk6xq0vhn.gpcdn.net/live/ten_cricket_hd_abr/live/ten_cricket_hd_720/chunks.m3u8
+https://app.uckingcrazy1.workers.dev/api/play/Ten%20Cricket.m3u8    
 
 #EXTINF:-1 tvg-id="Tapmad" tvg-name="Tapmad Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e0/Tapmad_logo.png" group-title="Sport",Tapmad Live Stream
 https://seriealeague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8
