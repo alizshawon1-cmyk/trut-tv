@@ -466,6 +466,14 @@ https://61fc4f1a40a342daa23f92141853b7b4.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-name="House of..." group-title="Entertainment",House of crime
 https://cc-y2z89muounal4.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y2z89muounal4/b8b76fc9-0a70-4025-a234-9e29a150048f/0.m3u8
 
+
+#EXTINF:-1 tvg-id="MoziPlus.hu@SD" tvg-logo="https://i.imgur.com/LtCnPFJ.png" group-title="Movies",Mozi+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://88.212.7.14/live/mozi_plusz/index.m3u8
+#EXTINF:-1 tvg-id="Moziverzum.hu@SD" tvg-logo="https://i.imgur.com/NMifecQ.png" group-title="Movies",Moziverzum
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://88.212.7.14/live/moziverzum/index.m3u8
+
 #------------------------------------------------------------------------------
 # CATEGORY: MUSIC
 #------------------------------------------------------------------------------
