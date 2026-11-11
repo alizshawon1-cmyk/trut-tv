@@ -690,6 +690,10 @@ https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8
 http://88.212.7.14/live/sport1_hun/index.m3u8
 
 
+#EXTINF:-1 group-title="Sports",  Sports
+http://46.244.99.56/hls/536f9ed75d53f14aba24e2b3aa4544db/894969_1756.ts
+
+
 #EXTINF:-1 group-title="Sports", Setanta Sports 1 Eurasia
 http://stream.mcquack.net/234/index.m3u8
 
