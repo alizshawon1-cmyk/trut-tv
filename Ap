@@ -254,6 +254,12 @@ http://dvltv.cc/live/Emon12345/Emon12346/2172.ts
 #EXTINF:-1 group-title="hindi",Ster Utseb movei
 https://fifabdmob.site/TG@RANAPKBD/MAC/SBHGOLD/play.m3u8?id=281286
 
+#EXTINF:-1 tvg-id="MKSix.in" tvg-name="MK Six" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/mk-six.png" tvg-chno="297" channel-id="MKSix.in" tvg-country="IN" tvg-language="tam" group-title="Indian entertainment",MK Six
+https://mumt06.tangotv.in/qYyB8fXVMKSIX/index.m3u8
+
+#EXTINF:-1 tvg-id="MarutamTV.in" tvg-name="MNTV (Tamil)" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/mntv-tamil.png" tvg-chno="298" channel-id="MarutamTV.in" tvg-country="IN" tvg-language="tam" group-title="Indian entertainment",MNTV (Tamil)
+https://mntv.livebox.co.in/mntvhls/live.m3u8
+
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Ay52-JQBv9knK3AHFDWt/posters/00afb30b-3c19-4c4c-abd8-891db94e4767.webp",Sony Max
 https://allinonereborn2.online/livtest3/stream_proxy.php?url=https%3A%2F%2Fallinonereborn2.online%2Fsony-new%2Fplaylists%2Fsony_max.m3u8
 
@@ -302,6 +308,9 @@ https://vg-pitaaratvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/mr2dec8v",Pitaara Comedy
 https://pitaara-lg.vgcdn.net/v1/vglive-sk-217489/live/PitaaraComedy_30/chunks.m3u8
+
+#EXTINF:-1 tvg-id="OliTV.in@SD" tvg-name="Oli TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/oli-tv.png" tvg-chno="304" channel-id="OliTV.in@SD" tvg-country="IN" tvg-language="tam" group-title="Indian entertainment",Oli TV
+https://live.olidigital.in/olitv/olitv/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="",Subim Tv
