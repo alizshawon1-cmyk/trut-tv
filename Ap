@@ -767,20 +767,12 @@ https://app.uckingcrazy1.workers.dev/api/play/Sony%20Sports%20TEN%204.m3u8
 https://app.uckingcrazy1.workers.dev/api/play/Sony%20Sports%20TEN%205.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png",Super sports criket
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/348289.ts.m3u8
-
-#EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png",Sky sports Cricket
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/980432.ts.m3u8 
-
-#EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png",Sky sports footbll
-http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9289/index.m3u8
+#EXTINF:-1 tvg-id="SkySportsCricket" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png" group-title="Sports",SKY SPORTS CRICKET
+#EXTVLCOPT:http-user-agent=Mozilla
+https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/W1z5BGPZ/20240823_024712.png",A Sports HD
 https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="Cricket" tvg-name="Cricbuzz",Cricbuzz
-http://leone62.com/live/1119098689177/XR3icL7qGN/1404519.ts.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",Cricbuzz Cricket HD
 https://tvsen7.aynaott.com/rEBp38Ax/index.m3u8
@@ -800,7 +792,4 @@ https://app.uckingcrazy1.workers.dev/api/play/Ten%20Cricket.m3u8
 #EXTINF:-1 tvg-id="Tapmad" tvg-name="Tapmad Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e0/Tapmad_logo.png" group-title="Sport",Tapmad Live Stream
 https://seriealeague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/South%20Africa%20Vs%20Bangladesh.jpg" group-title="Cricket", South Africa Vs Bangladesh - SKY SPORTS CRICKET
-#EXTVLCOPT:http-user-agent=Mozilla
-https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
 
