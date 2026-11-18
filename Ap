@@ -636,11 +636,6 @@ https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist_b8000000_t
 #EXTINF:-1 group-title="Sports" tvg-logo="",Bahrain 
 https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8 
 
-#EXTINF:-1 group-title="Sports", M4T4 Football 3
-http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/522/index.m3u8
-
-#EXTINF:-1 group-title="Sports", M4T4 Football 2
-http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/530/index.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="",Gol TV
 https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports1080p.m3u8
@@ -648,11 +643,6 @@ https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports1080p.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="",Gol TV 2
 https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8
 
-#EXTINF:-1 group-title="Sports" tvg-logo="",TNT Sports 4
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/311556.ts.m3u8 
-
-#EXTINF:-1 group-title="Sports" tvg-logo="",TNT Sports 5
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/311558.ts.m3u8 
 
 #EXTINF:-1  tvg-logo="https://tinyurl.com/y8s5kvty",TSN 
 https://tvsen7.aynaott.com/tsn/index.m3u8
@@ -678,26 +668,8 @@ http://27.124.71.27/beIN_Sports_2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/B6TPgPPT/20250120_193903.png",Bein Sports 3
 http://27.124.71.27/beIN_Sports_3/tracks-v1a1/mono.m3u8 
 
-#EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/B6TPgPPT/20250120_193903.png",Bein Sports 4
-http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/6125/index.m3u8
-
-#EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/B6TPgPPT/20250120_193903.png",Bein Sports 5
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/62502.ts.m3u8 
-
-#EXTINF:-1 group-title="Sports" tvg-logo="",Sports Digital
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/900984.ts.m3u8 
-
-#EXTINF:-1 group-title="Football" tvg-name="StarzPlay Sports 1",StarzPlay Sports 1
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/1469577.ts.m3u8
-
 #EXTINF:-1 group-title="Sports" tvg-logo="",a spor
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8 
-
-#EXTINF:-1 group-title="Sports" tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg", Unite 8 Sports 1 HD
-https://livetv.shamon-cable.net:8443/Unite8-sports-1/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 group-title="Sports" tvg-logo="",Super Premier league
-http://brinoxel.cc/live/MAG7J1SVKV/MAG776RPMZ/348283.ts.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg", TYC Sports
 https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/cb573d1e786c64869bd43863cef04482847b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca36265299a7369cc350f7bd2ec5a2f803ebe764c53cb017c593f88f258a8724cc59e0a957f39e8fc8b307b24455a9c5a43e6a64cb7a9b55f448c6fa4e4011ac37b14fa83439fd501b2d5825a83458422f717949af1dd861287e4ab599975824e6912422ff9bab4f2a3529bd5806035907067135005a6eba4f740388950501cd6cb8bee35b14395c912886e61ef5bd857d264c32b8b19b7ed4b97a8b9f44b5576f1970c2f74f6a5e8a1d3011e912abbaee0d6763cbef3177348802dfb2a39379df88445d1975bc6f873cbe4292e39c6905792d2e7d0b8fede1cee50a0adc391334641741742d70dd0fd43ef698c28e69e6962362b63a29552c883a32e136a5d898d5b945e5b8ed28587d0192888073f5ffb6bcd541566ae623f9c84e050728a0ac80f20faa282a906f709fb36f0b06270/63/1920x1080_8796395/index.m3u8
@@ -708,10 +680,6 @@ https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8
 #EXTINF:-1 tvg-id="Sport1.hu@SD" tvg-logo="https://i.imgur.com/X5X3tKC.png" group-title="Sports",Sport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.7.14/live/sport1_hun/index.m3u8
-
-
-#EXTINF:-1 group-title="Sports",  Sports
-http://46.244.99.56/hls/536f9ed75d53f14aba24e2b3aa4544db/894969_1756.ts.m3u8
 
 
 #EXTINF:-1 group-title="Sports", Setanta Sports 1 Eurasia
@@ -728,6 +696,9 @@ https://playztv-apps.pages.dev/ptv-sports/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/7d20b575edc4e4b5276faa8c246e72a4",Cricket Gold
 https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/bfc6a36e-c250-4afe-b6c9-2bc57855bb7d/4.m3u8
+
+#EXTINF:-1 group-title="Sports" tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg", Unite 8 Sports 1 HD
+https://livetv.shamon-cable.net:8443/Unite8-sports-1/tracks-v1a1/mono.m3u8?token=scn
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/DzDHjCJm/20240823_024249.png",Star Sports 1 HD
 https://livetv.shamon-cable.net:8443/Star-sports-1/tracks-v1a1/mono.m3u8?token=scn
