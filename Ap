@@ -800,3 +800,32 @@ https://app.uckingcrazy1.workers.dev/api/play/Ten%20Cricket.m3u8
 #EXTINF:-1 tvg-id="Tapmad" tvg-name="Tapmad Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e0/Tapmad_logo.png" group-title="Sport",Tapmad Live Stream
 https://seriealeague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8
 
+#EXTINF:-1 tvg-id="809409" group-title="WORLD CRICKET" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Live%20Cricket%20TV.png",┃WC┃ SPORTSMAX CRICKET HD
+https://ranapkz.site/RANAPKX73/MAXCDNz/play.php?id=809409
+#EXTINF:-1 tvg-id="809411" group-title="WORLD CRICKET" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Live%20Cricket%20TV.png",┃WC┃ JIO CRICKET ENGLISH HD
+https://ranapkz.site/RANAPKX73/MAXCDNz/play.php?id=809411
+#EXTINF:-1 tvg-id="809410" group-title="WORLD CRICKET" tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/Live%20Cricket%20TV.png",┃WC┃ CRICKET GOLD HD
+https://ranapkz.site/RANAPKX73/MAXCDNz/play.php?id=809410
+#EXTINF:-1 tvg-id="1433158" group-title="┃ HINDI┃ INDIA" tvg-logo="http://picon.tivi-ott.net:25461/picon/INDIA/HINDI INDIA/BIGG BOSS 1.png",┃HINDI┃ BIGG BOSS 1 HD
+https://ranapkz.site/RANAPKX73/MAXCDNz/play.php?id=1433158
+#EXTINF:-1 tvg-id="1433159" group-title="┃ HINDI┃ INDIA" tvg-logo="http://picon.tivi-ott.net:25461/picon/INDIA/HINDI INDIA/BIGG BOSS 2.png",┃HINDI┃ BIGG BOSS 2 HD
+https://ranapkz.site/RANAPKX73/MAXCDNz/play.php?id=1433159
+#EXTINF:-1 tvg-id="735398" group-title="┃ HINDI┃ INDIA" tvg-logo="http://picon.tivi-ott.net:25461/picon/INDIA/INDIA/ZEE TV HD.png",┃HINDI┃ ZEE TV HD ⏺ʳᵉᶜ
+https://ranapkz.site/RANAPKX73/MAXCDNz/play.php?id=735398
+#EXTINF:-1 tvg-id="735399" group-title="┃ HINDI┃ INDIA" tvg-logo="http://picon.tivi-ott.net:25461/picon/INDIA/INDIA/ZEE CINEMA FHD.png",┃HINDI┃ ZEE CINEMA HD ⏺ʳᵉᶜ
+https://ranapkz.site/RANAPKX73/MAXCDNz/play.php?id=735399
+#EXTINF:-1 tvg-id="735400" group-title="┃ HINDI┃ INDIA" tvg-logo="http://picon.tivi-ott.net:25461/picon/INDIA/INDIA/ZEE ACTION HD.png",┃HINDI┃ ZEE ACTION HD ⏺ʳᵉᶜ
+https://ranapkz.site/RANAPKX73/MAXCDNz/play.php?id=735400
+#EXTINF:-1 tvg-id="735401" group-title="┃ HINDI┃ INDIA" tvg-logo="http://picon.tivi-ott.net:25461/picon/INDIA/INDIA/ZEE CLASSIC.png",┃HINDI┃ ZEE CLASSIC HD  ⏺ʳᵉᶜ
+https://ranapkz.site/RANAPKX73/MAXCDNz/play.php?id=735401
+#EXTINF:-1 tvg-id="737321" group-title="┃ HINDI┃ INDIA" tvg-logo="http://picon.tivi-ott.net:25461/picon/INDIA/INDIA/ZING HD.png",┃HINDI┃ ZING HD  ⏺ʳᵉᶜ
+https://ranapkz.site/RANAPKX73/MAXCDNz/play.php?id=737321
+#EXTINF:-1 tvg-id="737322" group-title="┃ HINDI┃ INDIA" tvg-logo="http://picon.tivi-ott.net:25461/picon/INDIA/INDIA/STAR UTSAV MOVIES.png",┃HINDI┃ STAR UTSAV MOVIES HD ⏺ʳᵉᶜ
+https://ranapkz.site/RANAPKX73/MAXCDNz/play.php?id=737322
+#EXTINF:-1 tvg-id="943734" group-title="┃ HINDI┃ INDIA" tvg-logo="http://picon.tivi-ott.net:25461/picon/INDIA/INDIA/STAR BHARAT HD.png",┃HINDI┃ STAR BHARAT HD
+https://ranapkz.site/RANAPKX73/MAXCDNz/play.php?id=943734
+#EXTINF:-1 tvg-id="737323" group-title="┃ HINDI┃ INDIA" tvg-logo="http://picon.tivi-ott.net:25461/picon/INDIA/INDIA/STAR GOLD HD.png",┃HINDI┃ STAR GOLD HD ⏺ʳᵉᶜ
+https://ranapkz.site/RANAPKX73/MAXCDNz/play.php?id=737323
+#EXTINF:-1 tvg-id="372926" group-title="┃ HINDI┃ INDIA" tvg-logo="http://picon.tivi-ott.net:25461/picon/INDIA/Star_Gold_2.png",┃HINDI┃ STAR GOLD 2 HD
+https://ranapkz.site/RANAPKX73/MAXCDNz/play.php?id=372926
+
